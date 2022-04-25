@@ -1,0 +1,282 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"0gb6oBnvs7sgAskDtNqYJPoHsoIxuNIH": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 239,
+			"x": 1310,
+			"y": -4
+		},
+		"4UudPkb7GOrkJS8xrYnozjRsUtuv9Uz9": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 239,
+			"x": 1311,
+			"y": 183
+		},
+		"5T3e2Rabfk2ofaMJju09EVsXeqmV6jIl": {
+			"height": 94,
+			"title": "store",
+			"width": 223,
+			"x": 419,
+			"y": -219
+		},
+		"98vWWpG6I2W656Bu6GeJoBREdbqfLPE2": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 234,
+			"x": 1312,
+			"y": -98
+		},
+		"CBBM1yYuwwq0SPybBPYBoR90dOfPpkf0": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 412,
+			"y": 9
+		},
+		"FfCFGMJEOlEFvU1RSFSAIjz5WIg4zYs7": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 234,
+			"x": 1312,
+			"y": 474
+		},
+		"P9wF3dY6HWtnQvUnPxLPBmnwNDjsINSq": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 600,
+			"y": -5
+		},
+		"PgepmrCAsaCpj500SUv5qNall427kQM1": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 234,
+			"x": 1310,
+			"y": -186
+		},
+		"TSaAXUsqN7Fv31kfN8d71DM5906fzm61": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 239,
+			"x": 1310,
+			"y": 273
+		},
+		"WbjVRN78y9sJcPGYKqbyUDSj0TJLxLv6": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 215,
+			"y": 10
+		},
+		"jnrFCxZ38YUO28quNVlqEpKKiDjQ8saB": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 234,
+			"x": 1310,
+			"y": 366
+		},
+		"keEVpUsgYy1RvOxL8CGkmlvp8pebCjXf": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1104,
+			"y": -98
+		},
+		"rH9Nkq5H7zo2doa7hJ2g7qiFL4pI0Knb": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 239,
+			"x": 1311,
+			"y": 85
+		},
+		"wnIdWfK6L6cMgiZka5hC6zAmYtVtvJEU": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1090,
+			"y": 292
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "5T3e2Rabfk2ofaMJju09EVsXeqmV6jIl",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "squareLength"
+			}, {
+				"name": "value",
+				"value": "math.random(50,300)"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "PgepmrCAsaCpj500SUv5qNall427kQM1",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "dist",
+							"value": "{x = squareLength, z = 0}"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "Common.relativeMove"
+						} ],
+						"scriptName": "Common.relativeMove"
+					}, {
+						"children": [],
+						"id": "98vWWpG6I2W656Bu6GeJoBREdbqfLPE2",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "dist",
+							"value": "{x = 0, z = squareLength}"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "Common.relativeMove"
+						} ],
+						"scriptName": "Common.relativeMove"
+					}, {
+						"children": [],
+						"id": "0gb6oBnvs7sgAskDtNqYJPoHsoIxuNIH",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "dist",
+							"value": "{x = -squareLength, z = 0}"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "Common.relativeMove"
+						} ],
+						"scriptName": "Common.relativeMove"
+					}, {
+						"children": [],
+						"id": "rH9Nkq5H7zo2doa7hJ2g7qiFL4pI0Knb",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "dist",
+							"value": "{x = 0, z = -squareLength}"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "Common.relativeMove"
+						} ],
+						"scriptName": "Common.relativeMove"
+					} ],
+					"id": "keEVpUsgYy1RvOxL8CGkmlvp8pebCjXf",
+					"nodeType": "sequence",
+					"parameters": []
+				}, {
+					"children": [ {
+						"children": [],
+						"id": "4UudPkb7GOrkJS8xrYnozjRsUtuv9Uz9",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "dist",
+							"value": "{x = 0, z = -squareLength}"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "Common.relativeMove"
+						} ],
+						"scriptName": "Common.relativeMove"
+					}, {
+						"children": [],
+						"id": "TSaAXUsqN7Fv31kfN8d71DM5906fzm61",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "dist",
+							"value": "{x = -squareLength, z = 0}"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "Common.relativeMove"
+						} ],
+						"scriptName": "Common.relativeMove"
+					}, {
+						"children": [],
+						"id": "jnrFCxZ38YUO28quNVlqEpKKiDjQ8saB",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "dist",
+							"value": "{x = 0, z = squareLength}"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "Common.relativeMove"
+						} ],
+						"scriptName": "Common.relativeMove"
+					}, {
+						"children": [],
+						"id": "FfCFGMJEOlEFvU1RSFSAIjz5WIg4zYs7",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "dist",
+							"value": "{x = squareLength, z = 0}"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "Common.relativeMove"
+						} ],
+						"scriptName": "Common.relativeMove"
+					} ],
+					"id": "wnIdWfK6L6cMgiZka5hC6zAmYtVtvJEU",
+					"nodeType": "sequence",
+					"parameters": []
+				} ],
+				"id": "P9wF3dY6HWtnQvUnPxLPBmnwNDjsINSq",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "math.random() < 0.5"
+				}, {
+					"name": "repeat",
+					"value": "true"
+				} ]
+			} ],
+			"id": "CBBM1yYuwwq0SPybBPYBoR90dOfPpkf0",
+			"nodeType": "repeat",
+			"parameters": []
+		} ],
+		"id": "WbjVRN78y9sJcPGYKqbyUDSj0TJLxLv6",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}

@@ -1,0 +1,204 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"2ZPiXfOJOuXGRxJzYSrshN6ksHBWo0S7": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 239,
+			"x": 847,
+			"y": 97
+		},
+		"AZTZ8n9plkDzNNWbqlAtIkMpvSzZJqs4": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 215,
+			"y": 10
+		},
+		"FEwgJuGpLdrjA5cQRBuH8WTnPzjQnwaH": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 239,
+			"x": 848,
+			"y": 186
+		},
+		"VX4x2nBBQV804CP5CAZvkjP0wRER2WYO": {
+			"height": 94,
+			"title": "store",
+			"width": 236,
+			"x": 643,
+			"y": -213
+		},
+		"aOJuTv1lEKqVOE8KXAjNAsLN95uyvTcO": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 626,
+			"y": 9
+		},
+		"chVa2J1Aoqt7AQ3cLGX9CbBuDlnpLhH9": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 234,
+			"x": 847,
+			"y": -85
+		},
+		"fVWg4amHtsPJybJdmra1iRO7GVMSfLCc": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 412,
+			"y": 9
+		},
+		"o1JHsU0XXZAVcX81gU1JnJbIx2GUoWed": {
+			"height": 90,
+			"title": "Common.relativeMove",
+			"width": 234,
+			"x": 849,
+			"y": 3
+		},
+		"rJlw4wytqFxYqV9HFEin4zOWawnefE8P": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 416,
+			"y": -256
+		},
+		"vqn8mB6rZ5FweyLfYipUcxAyKXhYUuVC": {
+			"height": 94,
+			"title": "store",
+			"width": 223,
+			"x": 645,
+			"y": -315
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "vqn8mB6rZ5FweyLfYipUcxAyKXhYUuVC",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "squareLength"
+				}, {
+					"name": "value",
+					"value": "math.random(50,300)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "VX4x2nBBQV804CP5CAZvkjP0wRER2WYO",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "squareLength"
+				}, {
+					"name": "value",
+					"value": "-math.random(400,550)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			} ],
+			"id": "rJlw4wytqFxYqV9HFEin4zOWawnefE8P",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "#units % 2 == 0"
+			}, {
+				"name": "repeat",
+				"value": "false"
+			} ]
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "chVa2J1Aoqt7AQ3cLGX9CbBuDlnpLhH9",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "dist",
+						"value": "{x = squareLength, z = 0}"
+					}, {
+						"name": "fight",
+						"value": "false"
+					}, {
+						"name": "scriptName",
+						"value": "Common.relativeMove"
+					} ],
+					"scriptName": "Common.relativeMove"
+				}, {
+					"children": [],
+					"id": "o1JHsU0XXZAVcX81gU1JnJbIx2GUoWed",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "dist",
+						"value": "{x = 0, z = squareLength}"
+					}, {
+						"name": "fight",
+						"value": "false"
+					}, {
+						"name": "scriptName",
+						"value": "Common.relativeMove"
+					} ],
+					"scriptName": "Common.relativeMove"
+				}, {
+					"children": [],
+					"id": "2ZPiXfOJOuXGRxJzYSrshN6ksHBWo0S7",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "dist",
+						"value": "{x = -squareLength, z = 0}"
+					}, {
+						"name": "fight",
+						"value": "false"
+					}, {
+						"name": "scriptName",
+						"value": "Common.relativeMove"
+					} ],
+					"scriptName": "Common.relativeMove"
+				}, {
+					"children": [],
+					"id": "FEwgJuGpLdrjA5cQRBuH8WTnPzjQnwaH",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "dist",
+						"value": "{x = 0, z = -squareLength}"
+					}, {
+						"name": "fight",
+						"value": "false"
+					}, {
+						"name": "scriptName",
+						"value": "Common.relativeMove"
+					} ],
+					"scriptName": "Common.relativeMove"
+				} ],
+				"id": "aOJuTv1lEKqVOE8KXAjNAsLN95uyvTcO",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "fVWg4amHtsPJybJdmra1iRO7GVMSfLCc",
+			"nodeType": "repeat",
+			"parameters": []
+		} ],
+		"id": "AZTZ8n9plkDzNNWbqlAtIkMpvSzZJqs4",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
