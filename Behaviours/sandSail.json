@@ -27,12 +27,19 @@
 			"height": 132,
 			"title": "formation.moveCustomGroup",
 			"width": 357,
-			"x": 1301,
-			"y": 432
+			"x": 1296,
+			"y": 474
+		},
+		"5UuQZZfH3SXf2eFTBLrbjxl2BfLS2sY6": {
+			"height": 94,
+			"title": "Relative Formation",
+			"width": 831,
+			"x": 1322,
+			"y": 132
 		},
 		"6xSq8oJ94OvPpZL81H2kCr2cQKmI0WZS": {
 			"height": 90,
-			"title": "Common.move",
+			"title": "Move Commander",
 			"width": 368,
 			"x": 1265,
 			"y": 4
@@ -88,17 +95,24 @@
 		},
 		"gGI0xwXFEosCKcVhwv2MN0ZiRs5GDlv4": {
 			"height": 94,
-			"title": "store",
+			"title": "Group Definition",
 			"width": 268,
-			"x": 1288,
-			"y": 294
+			"x": 1314,
+			"y": 362
 		},
 		"ik1B6CsIbTLQJm0OrZWcTIgP3zmstQ7Q": {
 			"height": 94,
 			"title": "Position to Move to (Group)",
 			"width": 776,
-			"x": 1323,
-			"y": 175
+			"x": 1326,
+			"y": 247
+		},
+		"ltkYhuzxlZIKNgoMsazXdVr9vETBnmWJ": {
+			"height": 94,
+			"title": "Formation Definition",
+			"width": 315,
+			"x": 1265,
+			"y": -398
 		},
 		"n9P3fJH2eRsh5fq04MBO61EPVVIoBxzQ": {
 			"height": 60,
@@ -137,17 +151,32 @@
 		}
 	},
 	"roles": [ {
-		"categories": [],
-		"name": "Role 0"
+		"categories": [ "nota_dobby.BattleCommander" ],
+		"name": "Command"
 	}, {
-		"categories": [],
-		"name": "Role 1"
+		"categories": [ "nota_dobby.PewPew" ],
+		"name": "Follow"
 	} ],
 	"root": {
 		"children": [ {
 			"children": [ {
 				"children": [ {
 					"children": [ {
+						"children": [],
+						"id": "ltkYhuzxlZIKNgoMsazXdVr9vETBnmWJ",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "formationDefinition"
+						}, {
+							"name": "value",
+							"value": "formation.Definition(\"swarm\")"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
 						"children": [],
 						"id": "IjCxvqD56H8mVpUqTZZXeqRFPoIEQINy",
 						"nodeType": "luaCommand",
@@ -237,6 +266,21 @@
 				"children": [ {
 					"children": [ {
 						"children": [],
+						"id": "5UuQZZfH3SXf2eFTBLrbjxl2BfLS2sY6",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "relativeFormation"
+						}, {
+							"name": "value",
+							"value": "formation.StaticTransform(formationDefinition.positions, 0, nil, formationDefinition.defaults.spacing)"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [],
 						"id": "ik1B6CsIbTLQJm0OrZWcTIgP3zmstQ7Q",
 						"nodeType": "luaCommand",
 						"parameters": [ {
@@ -244,7 +288,7 @@
 							"value": "groupPos"
 						}, {
 							"name": "value",
-							"value": "posCommander  + Vec3(0,0,150)"
+							"value": "posCommander  + Vec3(0,0,500)"
 						}, {
 							"name": "scriptName",
 							"value": "store"
@@ -287,7 +331,7 @@
 							"value": "groupPos"
 						}, {
 							"name": "formation",
-							"value": "formation.Definition(\"swarm\").positions"
+							"value": "relativeFormation"
 						}, {
 							"name": "fight",
 							"value": "false"
