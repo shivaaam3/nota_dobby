@@ -1,0 +1,52 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 148,
+			"width": 216
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "group"
+	}, {
+		"command": "Variable",
+		"name": "position"
+	} ],
+	"outputs": [],
+	"properties": {
+		"pRq0EqOzTr2P9aDC0U8KlWEsiwF0j42U": {
+			"height": 132,
+			"title": "formation.moveCustomGroup",
+			"width": 870,
+			"x": 305,
+			"y": 5
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [],
+		"id": "pRq0EqOzTr2P9aDC0U8KlWEsiwF0j42U",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "groupDefintion",
+			"value": "{[group] = 1}"
+		}, {
+			"name": "position",
+			"value": "position"
+		}, {
+			"name": "formation",
+			"value": "formation.StaticTransform(formation.Definition(\"swarm\").positions, 0, nil, formation.Definition(\"swarm\").defaults.spacing)"
+		}, {
+			"name": "fight",
+			"value": "false"
+		}, {
+			"name": "scriptName",
+			"value": "formation.moveCustomGroup"
+		} ],
+		"scriptName": "formation.moveCustomGroup"
+	}
+}

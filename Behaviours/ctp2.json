@@ -1,0 +1,529 @@
+{
+	"additionalNodes": [ {
+		"children": [],
+		"id": "uidS4Z8ld2Pr42mayQeOGgt4Yz9bvvjE",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "groupDefintion",
+			"value": "{[warriors[1]] = 1, [warriors[2]] = 2, [warriors[3]] = 3}"
+		}, {
+			"name": "position",
+			"value": "enemyPosition"
+		}, {
+			"name": "formation",
+			"value": "formation.StaticTransform(formation.Definition(\"swarm\").positions, 0, nil, formation.Definition(\"swarm\").defaults.spacing)"
+		}, {
+			"name": "fight",
+			"value": "true"
+		}, {
+			"name": "scriptName",
+			"value": "formation.moveCustomGroup"
+		} ],
+		"scriptName": "formation.moveCustomGroup"
+	} ],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"0mKhPAajtNb3AhLKBLaNd3ERzKYy0WYw": {
+			"height": 94,
+			"title": "Bear",
+			"width": 300,
+			"x": 1006,
+			"y": 250
+		},
+		"1HMIjKTqt5mJ5W6pyjY8LcnxFWkr0bME": {
+			"height": 94,
+			"title": "Peewees",
+			"width": 300,
+			"x": 1000,
+			"y": 469
+		},
+		"39yQ9it6qny2zsuzut7AP59qAwJPDH4C": {
+			"height": 151,
+			"title": "reference",
+			"width": 340,
+			"x": 1492,
+			"y": 695
+		},
+		"9NaJQ4fe5xjspDpU0g4JJM4GyHN2Lo0y": {
+			"height": 94,
+			"title": "Hill Positions",
+			"width": 300,
+			"x": 538,
+			"y": -102
+		},
+		"CviJaJHFNIAaYVyPXHKk9p1TUYNP1Q5M": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 251,
+			"y": 10
+		},
+		"DlEbrPG9UN5EeiskZwJ4D7yOqYW1IQvP": {
+			"height": 151,
+			"title": "reference",
+			"width": 340,
+			"x": 1475,
+			"y": 335
+		},
+		"Jal1RvArtAbcfVzENnHN8eY0IY4kC5IP": {
+			"height": 54,
+			"title": "nota_common.manualMissionEnd",
+			"width": 296,
+			"x": 1432,
+			"y": 222
+		},
+		"PFyhoj18uJNPKfiXUwKSwKBW8JgF5oSu": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 828,
+			"y": 582
+		},
+		"QDibGVKO1G3C7XUvBv4GYUz5TkdZZVU4": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1182,
+			"y": 367
+		},
+		"QX5CNSemVzI8xTQu1uZ7vIdRzOqCjICD": {
+			"height": 151,
+			"title": "reference",
+			"width": 340,
+			"x": 1876,
+			"y": 152
+		},
+		"QcqQYKdegy0BLId5oZo5xfttO8ywfHsl": {
+			"height": 94,
+			"title": "Map Data",
+			"width": 300,
+			"x": 514,
+			"y": -456
+		},
+		"RaxXlPtPxobsaJRyOS8t8vOOV0McUUUf": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1226,
+			"y": 96
+		},
+		"Svavf18KIQMs1QuNYbEqAjQv8FEWCBf9": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 810,
+			"y": 19
+		},
+		"VlXVXyuxaJ5XLda17UDw2kz1Ur7nYZji": {
+			"height": 151,
+			"title": "reference",
+			"width": 340,
+			"x": 1864,
+			"y": -22
+		},
+		"XIQLc6KDGfdlmXnweeEaJO7pNDwhxfP8": {
+			"height": 151,
+			"title": "reference",
+			"width": 340,
+			"x": 1495,
+			"y": 520
+		},
+		"YqIqujrZOvT5vw90pgbzEbj8xAvsjO84": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 1029,
+			"y": 96
+		},
+		"cBupQza3RShLLw4STJyNnMctzqTjyVXE": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 1009,
+			"y": 367
+		},
+		"e7xvTwK0hceZT0PwkrwuZGgbZVuYNyZH": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 1550,
+			"y": 5
+		},
+		"hMdYqEsdgf2Aaa73CqiJWpqctlLEktdK": {
+			"height": 72,
+			"title": "WaitTillBearReaches",
+			"width": 214,
+			"x": 1559,
+			"y": -86
+		},
+		"iV7AQr7mhKBKfkCMGS3wY3WYM1HYi5Bu": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 822,
+			"y": 343
+		},
+		"syKw9ERf23FeMzTfofofcrcENYMktcvE": {
+			"height": 151,
+			"title": "reference",
+			"width": 340,
+			"x": 1497,
+			"y": 864
+		},
+		"u99siMchmIXt26QzJe3r56i391RFCX1o": {
+			"height": 70,
+			"title": "roleSplit",
+			"width": 202,
+			"x": 548,
+			"y": 62
+		},
+		"uidS4Z8ld2Pr42mayQeOGgt4Yz9bvvjE": {
+			"height": 132,
+			"title": "formation.moveCustomGroup",
+			"width": 870,
+			"x": 2332,
+			"y": 235
+		},
+		"wUaCEub56nt64kgSI2Cxjd4MoT0jwOKr": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 1036,
+			"y": 616
+		},
+		"wW9qKv2wygxkjkBIsPS2BmBY7YQi4QqZ": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 1256,
+			"y": 612
+		},
+		"wykkjgw8979SJa8KKKWLEJzc5UVewOcj": {
+			"height": 94,
+			"title": "Warriors ",
+			"width": 300,
+			"x": 1014,
+			"y": -19
+		},
+		"x0SRwc5e9DIB6iAHYdj1UuoYiRK9WA2P": {
+			"height": 94,
+			"title": "Enemy Position",
+			"width": 381,
+			"x": 520,
+			"y": -304
+		},
+		"ziw5QhTtvlPBvNguAxDXkZDpDNWPcuwP": {
+			"height": 151,
+			"title": "reference",
+			"width": 340,
+			"x": 1874,
+			"y": -192
+		}
+	},
+	"roles": [ {
+		"categories": [ "nota_dobby.Warrior" ],
+		"name": "Warrior"
+	}, {
+		"categories": [ "nota_dobby.Bear" ],
+		"name": "Bear"
+	}, {
+		"categories": [ "nota_dobby.PewPew" ],
+		"name": "Peewee"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "QcqQYKdegy0BLId5oZo5xfttO8ywfHsl",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "mapData"
+			}, {
+				"name": "value",
+				"value": "core.MissionInfo()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "x0SRwc5e9DIB6iAHYdj1UuoYiRK9WA2P",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "enemyPosition"
+			}, {
+				"name": "value",
+				"value": "mapData.enemyPositions[1] + Vec3(20,0,20) "
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "9NaJQ4fe5xjspDpU0g4JJM4GyHN2Lo0y",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "hillPositions"
+			}, {
+				"name": "value",
+				"value": "nota_fileho_ctp2.GetHills()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "wykkjgw8979SJa8KKKWLEJzc5UVewOcj",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "warriors"
+					}, {
+						"name": "value",
+						"value": "units"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "hMdYqEsdgf2Aaa73CqiJWpqctlLEktdK",
+							"nodeType": "wait",
+							"parameters": [ {
+								"name": "time",
+								"value": 10
+							} ]
+						}, {
+							"children": [ {
+								"children": [],
+								"id": "ziw5QhTtvlPBvNguAxDXkZDpDNWPcuwP",
+								"nodeType": "reference",
+								"parameters": [ {
+									"name": "behaviourName",
+									"value": "nota_dobby.moveGroupToPos"
+								} ],
+								"referenceInputs": [ {
+									"name": "group",
+									"value": "warriors[1]"
+								}, {
+									"name": "position",
+									"value": "enemyPosition"
+								} ],
+								"referenceOutputs": []
+							}, {
+								"children": [],
+								"id": "VlXVXyuxaJ5XLda17UDw2kz1Ur7nYZji",
+								"nodeType": "reference",
+								"parameters": [ {
+									"name": "behaviourName",
+									"value": "nota_dobby.moveGroupToPos"
+								} ],
+								"referenceInputs": [ {
+									"name": "group",
+									"value": "warriors[2]"
+								}, {
+									"name": "position",
+									"value": "enemyPosition"
+								} ],
+								"referenceOutputs": []
+							}, {
+								"children": [],
+								"id": "QX5CNSemVzI8xTQu1uZ7vIdRzOqCjICD",
+								"nodeType": "reference",
+								"parameters": [ {
+									"name": "behaviourName",
+									"value": "nota_dobby.moveGroupToPos"
+								} ],
+								"referenceInputs": [ {
+									"name": "group",
+									"value": "warriors[3]"
+								}, {
+									"name": "position",
+									"value": "enemyPosition"
+								} ],
+								"referenceOutputs": []
+							} ],
+							"id": "e7xvTwK0hceZT0PwkrwuZGgbZVuYNyZH",
+							"nodeType": "parallel",
+							"parameters": [ {
+								"name": "mode",
+								"value": "any-success"
+							} ]
+						}, {
+							"children": [],
+							"id": "Jal1RvArtAbcfVzENnHN8eY0IY4kC5IP",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "scriptName",
+								"value": "nota_common.manualMissionEnd"
+							} ],
+							"scriptName": "nota_common.manualMissionEnd"
+						} ],
+						"id": "RaxXlPtPxobsaJRyOS8t8vOOV0McUUUf",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "YqIqujrZOvT5vw90pgbzEbj8xAvsjO84",
+					"nodeType": "repeat",
+					"parameters": []
+				} ],
+				"id": "Svavf18KIQMs1QuNYbEqAjQv8FEWCBf9",
+				"nodeType": "sequence",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "0mKhPAajtNb3AhLKBLaNd3ERzKYy0WYw",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "bear"
+					}, {
+						"name": "value",
+						"value": "units[1]"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "DlEbrPG9UN5EeiskZwJ4D7yOqYW1IQvP",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_dobby.moveGroupToPos"
+							} ],
+							"referenceInputs": [ {
+								"name": "group",
+								"value": "bear"
+							}, {
+								"name": "position",
+								"value": "enemyPosition"
+							} ],
+							"referenceOutputs": []
+						} ],
+						"id": "QDibGVKO1G3C7XUvBv4GYUz5TkdZZVU4",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "cBupQza3RShLLw4STJyNnMctzqTjyVXE",
+					"nodeType": "repeat",
+					"parameters": []
+				} ],
+				"id": "iV7AQr7mhKBKfkCMGS3wY3WYM1HYi5Bu",
+				"nodeType": "sequence",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "1HMIjKTqt5mJ5W6pyjY8LcnxFWkr0bME",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "peewees"
+					}, {
+						"name": "value",
+						"value": "units"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "XIQLc6KDGfdlmXnweeEaJO7pNDwhxfP8",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_dobby.moveGroupToPos"
+							} ],
+							"referenceInputs": [ {
+								"name": "group",
+								"value": "peewees[1]"
+							}, {
+								"name": "position",
+								"value": "hillPositions[1]"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "39yQ9it6qny2zsuzut7AP59qAwJPDH4C",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_dobby.moveGroupToPos"
+							} ],
+							"referenceInputs": [ {
+								"name": "group",
+								"value": "peewees[2]"
+							}, {
+								"name": "position",
+								"value": "hillPositions[2]"
+							} ],
+							"referenceOutputs": []
+						}, {
+							"children": [],
+							"id": "syKw9ERf23FeMzTfofofcrcENYMktcvE",
+							"nodeType": "reference",
+							"parameters": [ {
+								"name": "behaviourName",
+								"value": "nota_dobby.moveGroupToPos"
+							} ],
+							"referenceInputs": [ {
+								"name": "group",
+								"value": "peewees[3]"
+							}, {
+								"name": "position",
+								"value": "hillPositions[3]"
+							} ],
+							"referenceOutputs": []
+						} ],
+						"id": "wW9qKv2wygxkjkBIsPS2BmBY7YQi4QqZ",
+						"nodeType": "parallel",
+						"parameters": [ {
+							"name": "mode",
+							"value": "all-success"
+						} ]
+					} ],
+					"id": "wUaCEub56nt64kgSI2Cxjd4MoT0jwOKr",
+					"nodeType": "repeat",
+					"parameters": []
+				} ],
+				"id": "PFyhoj18uJNPKfiXUwKSwKBW8JgF5oSu",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "u99siMchmIXt26QzJe3r56i391RFCX1o",
+			"nodeType": "roleSplit",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
+			} ]
+		} ],
+		"id": "CviJaJHFNIAaYVyPXHKk9p1TUYNP1Q5M",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
