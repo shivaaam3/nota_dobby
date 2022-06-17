@@ -2,5 +2,7 @@
 	"core": "0.8.x",
 	"map": "0.4.x",
 	"formation": "0.3.x",
-	"nota_fileho_ctp2": "1.0"
+	"nota_fileho_ctp2": "1.0",
+	"nota_fileho_ttdr": "1.0",
+	"nota_mastr_ukol1": "2.4"
 }

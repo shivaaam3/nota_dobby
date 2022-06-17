@@ -1,0 +1,320 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 148,
+			"width": 231
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "atlases"
+	}, {
+		"command": "Variable",
+		"name": "unitsToSave"
+	}, {
+		"command": "Variable",
+		"name": "info"
+	} ],
+	"outputs": [],
+	"properties": {
+		"EtlLwqfoTI9TParhpwXcGcuDfmdBEUcZ": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 312,
+			"y": 34
+		},
+		"FYKYmhJ11nYr6FlQAPKlYD8BuPIdUwg5": {
+			"height": 92,
+			"title": "nota_fileho_ttdr.loadUnit",
+			"width": 236,
+			"x": 1970,
+			"y": 69
+		},
+		"GMjHoUQcah0NxvMw6ie5egEQ1oMY5Im6": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 564,
+			"y": 32
+		},
+		"H2dnlVGmJl6SaKgLbjXTXtl89OzKsoAY": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1293,
+			"y": 85
+		},
+		"Ide1clCJTELrB9HVMG3TwWah545WJtTo": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1684,
+			"y": 84
+		},
+		"KZf239RHGCD0ehscN0zjrwILapJ1Cjtt": {
+			"height": 94,
+			"title": "store",
+			"width": 393,
+			"x": 1302,
+			"y": 308
+		},
+		"O5FH5jii1GPyWnDBRL065EOVITnZR2c9": {
+			"height": 70,
+			"title": "selector",
+			"width": 131,
+			"x": 1045,
+			"y": 140
+		},
+		"VRUB7KWFpsZqsOxWMimsqfOJeYGsAPWb": {
+			"height": 94,
+			"title": "store",
+			"width": 327,
+			"x": 810,
+			"y": 21
+		},
+		"b9PNZflPlq1aald9WCmnEjUZOGKGKUOS": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 1991,
+			"y": 287
+		},
+		"cEd2WNWz8QEinfbo8ODzlsLssWl5Zs6Y": {
+			"height": 92,
+			"title": "store",
+			"width": 173,
+			"x": 1590,
+			"y": 201
+		},
+		"flUtVAVECM2rIUqNW5urxsABCRWEdwVd": {
+			"height": 112,
+			"title": "nota_dobby.unloadUnit",
+			"width": 228,
+			"x": 2000,
+			"y": 372
+		},
+		"qyWBhuPfbV0mGsFPgHXKzAcmAdngs7CB": {
+			"height": 90,
+			"title": "checkForEmptyList",
+			"width": 202,
+			"x": 806,
+			"y": 133
+		},
+		"wKWuC3BdsqhdWGGJUp4X4T9gMiXIs6px": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1041,
+			"y": 250
+		},
+		"wskFvTRjpVPz8f9399ItR82yAuioXWOI": {
+			"height": 112,
+			"title": "nota_dobby.move",
+			"width": 315,
+			"x": 1964,
+			"y": -59
+		},
+		"xmeB7j7hz5FjAinzSsrcAIOcetnrqVEs": {
+			"height": 112,
+			"title": "nota_dobby.move",
+			"width": 230,
+			"x": 1972,
+			"y": 171
+		},
+		"ytqt3csJYeMJGQnfhEGO7z734EkmGqFf": {
+			"height": 94,
+			"title": "store",
+			"width": 293,
+			"x": 811,
+			"y": -89
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "ytqt3csJYeMJGQnfhEGO7z734EkmGqFf",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "atlas"
+				}, {
+					"name": "value",
+					"value": "nota_fileho_ttdr.PickUnit(atlases)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "VRUB7KWFpsZqsOxWMimsqfOJeYGsAPWb",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "unit"
+				}, {
+					"name": "value",
+					"value": "nota_fileho_ttdr.PickUnit(unitsToSave)"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [ {
+							"children": [ {
+								"children": [],
+								"id": "wskFvTRjpVPz8f9399ItR82yAuioXWOI",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "unit",
+									"value": "atlas"
+								}, {
+									"name": "position",
+									"value": "nota_fileho_ttdr.GetLocation(unit)"
+								}, {
+									"name": "fight",
+									"value": "true"
+								}, {
+									"name": "scriptName",
+									"value": "nota_dobby.move"
+								} ],
+								"scriptName": "nota_dobby.move"
+							}, {
+								"children": [],
+								"id": "FYKYmhJ11nYr6FlQAPKlYD8BuPIdUwg5",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "atlas",
+									"value": "atlas"
+								}, {
+									"name": "unit",
+									"value": "unit"
+								}, {
+									"name": "scriptName",
+									"value": "nota_fileho_ttdr.loadUnit"
+								} ],
+								"scriptName": "nota_fileho_ttdr.loadUnit"
+							}, {
+								"children": [],
+								"id": "xmeB7j7hz5FjAinzSsrcAIOcetnrqVEs",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "unit",
+									"value": "atlas"
+								}, {
+									"name": "position",
+									"value": "info.safeArea.center"
+								}, {
+									"name": "fight",
+									"value": "true"
+								}, {
+									"name": "scriptName",
+									"value": "nota_dobby.move"
+								} ],
+								"scriptName": "nota_dobby.move"
+							}, {
+								"children": [],
+								"id": "b9PNZflPlq1aald9WCmnEjUZOGKGKUOS",
+								"nodeType": "wait",
+								"parameters": [ {
+									"name": "time",
+									"value": 5
+								} ]
+							}, {
+								"children": [],
+								"id": "flUtVAVECM2rIUqNW5urxsABCRWEdwVd",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "atlas",
+									"value": "atlas"
+								}, {
+									"name": "unit",
+									"value": "unit"
+								}, {
+									"name": "area",
+									"value": "info.safeArea"
+								}, {
+									"name": "scriptName",
+									"value": "nota_dobby.unloadUnit"
+								} ],
+								"scriptName": "nota_dobby.unloadUnit"
+							} ],
+							"id": "Ide1clCJTELrB9HVMG3TwWah545WJtTo",
+							"nodeType": "sequence",
+							"parameters": []
+						}, {
+							"children": [],
+							"id": "cEd2WNWz8QEinfbo8ODzlsLssWl5Zs6Y",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "atlases[atlas]"
+							}, {
+								"name": "value",
+								"value": "0"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						} ],
+						"id": "H2dnlVGmJl6SaKgLbjXTXtl89OzKsoAY",
+						"nodeType": "sequence",
+						"parameters": []
+					}, {
+						"children": [],
+						"id": "KZf239RHGCD0ehscN0zjrwILapJ1Cjtt",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "_"
+						}, {
+							"name": "value",
+							"value": "nota_fileho_ttdr.UpdateUnits(unitsToSave, unit)"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					} ],
+					"id": "O5FH5jii1GPyWnDBRL065EOVITnZR2c9",
+					"nodeType": "selector",
+					"parameters": [ {
+						"name": "active",
+						"value": "true"
+					} ]
+				}, {
+					"children": [],
+					"id": "wKWuC3BdsqhdWGGJUp4X4T9gMiXIs6px",
+					"nodeType": "success",
+					"parameters": []
+				} ],
+				"id": "qyWBhuPfbV0mGsFPgHXKzAcmAdngs7CB",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "unit ~= nil"
+				}, {
+					"name": "repeat",
+					"value": "false"
+				} ]
+			} ],
+			"id": "GMjHoUQcah0NxvMw6ie5egEQ1oMY5Im6",
+			"nodeType": "sequence",
+			"parameters": []
+		} ],
+		"id": "EtlLwqfoTI9TParhpwXcGcuDfmdBEUcZ",
+		"nodeType": "repeat",
+		"parameters": []
+	}
+}

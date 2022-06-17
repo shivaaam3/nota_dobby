@@ -1,0 +1,146 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 148,
+			"width": 231
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "atlases"
+	}, {
+		"command": "Variable",
+		"name": "unitsToSave"
+	}, {
+		"command": "Variable",
+		"name": "info"
+	} ],
+	"outputs": [],
+	"properties": {
+		"6QTBdR8ptq84xaW4uKccm6yPLckxE8Fk": {
+			"height": 214,
+			"title": "reference",
+			"width": 356,
+			"x": 669,
+			"y": -184
+		},
+		"RUb83bf5OvqeVsCp58K2NSjgr5tal8ac": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 308,
+			"y": 27
+		},
+		"cdvuBsBMJ5UK20mY8OYoJwnSymOfQMUa": {
+			"height": 214,
+			"title": "reference",
+			"width": 356,
+			"x": 691,
+			"y": 352
+		},
+		"gbcg0MvI52n74Jfn8uJUOLBigRaI57s1": {
+			"height": 214,
+			"title": "reference",
+			"width": 356,
+			"x": 669,
+			"y": 92
+		},
+		"zR2cuapBIlNdyufFuwjE1Lfj5H7u2hBS": {
+			"height": 214,
+			"title": "reference",
+			"width": 356,
+			"x": 691,
+			"y": 628
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "6QTBdR8ptq84xaW4uKccm6yPLckxE8Fk",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_dobby.RescueNearUnit"
+			} ],
+			"referenceInputs": [ {
+				"name": "atlases",
+				"value": "atlases"
+			}, {
+				"name": "unitsToSave",
+				"value": "unitsToSave"
+			}, {
+				"name": "info",
+				"value": "info"
+			} ],
+			"referenceOutputs": []
+		}, {
+			"children": [],
+			"id": "gbcg0MvI52n74Jfn8uJUOLBigRaI57s1",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_dobby.RescueNearUnit"
+			} ],
+			"referenceInputs": [ {
+				"name": "atlases",
+				"value": "atlases"
+			}, {
+				"name": "unitsToSave",
+				"value": "unitsToSave"
+			}, {
+				"name": "info",
+				"value": "info"
+			} ],
+			"referenceOutputs": []
+		}, {
+			"children": [],
+			"id": "cdvuBsBMJ5UK20mY8OYoJwnSymOfQMUa",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_dobby.RescueNearUnit"
+			} ],
+			"referenceInputs": [ {
+				"name": "atlases",
+				"value": "atlases"
+			}, {
+				"name": "unitsToSave",
+				"value": "unitsToSave"
+			}, {
+				"name": "info",
+				"value": "info"
+			} ],
+			"referenceOutputs": []
+		}, {
+			"children": [],
+			"id": "zR2cuapBIlNdyufFuwjE1Lfj5H7u2hBS",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_dobby.RescueNearUnit"
+			} ],
+			"referenceInputs": [ {
+				"name": "atlases",
+				"value": "atlases"
+			}, {
+				"name": "unitsToSave",
+				"value": "unitsToSave"
+			}, {
+				"name": "info",
+				"value": "info"
+			} ],
+			"referenceOutputs": []
+		} ],
+		"id": "RUb83bf5OvqeVsCp58K2NSjgr5tal8ac",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	}
+}
