@@ -1,20 +1,5 @@
 {
-	"additionalNodes": [ {
-		"children": [],
-		"id": "5GgGRPDYjGBKW2DNluo7RvfJHsRWwIrD",
-		"nodeType": "luaCommand",
-		"parameters": [ {
-			"name": "var",
-			"value": "_"
-		}, {
-			"name": "value",
-			"value": "nota_fileho_ttdr.ResetUnit(unitsToSave,  unit)"
-		}, {
-			"name": "scriptName",
-			"value": "store"
-		} ],
-		"scriptName": "store"
-	} ],
+	"additionalNodes": [],
 	"additionalParameters": {
 		"root": {
 			"height": 148,
@@ -37,133 +22,140 @@
 			"height": 94,
 			"title": "store",
 			"width": 293,
-			"x": 796,
+			"x": 805,
 			"y": -128
 		},
 		"4WE5UUgeucnWpNYOBiyNpKoy0nKLjjxq": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 328,
+			"x": 329,
 			"y": 31
-		},
-		"5GgGRPDYjGBKW2DNluo7RvfJHsRWwIrD": {
-			"height": 94,
-			"title": "store",
-			"width": 374,
-			"x": 1853,
-			"y": 672
 		},
 		"9HVOBPT9xTRnn85v9xKBmmrxXdizxOlC": {
 			"height": 70,
 			"title": "selector",
 			"width": 131,
-			"x": 1032,
+			"x": 1041,
 			"y": 139
 		},
 		"AWyYkCMo0h1JBcwuyO4srVZV1PrZ4GMn": {
 			"height": 94,
 			"title": "store",
 			"width": 752,
-			"x": 1927,
+			"x": 1928,
 			"y": 1
+		},
+		"CgZ6piwI9znEB7WhB6n3lx6MVvnmRYdQ": {
+			"height": 112,
+			"title": "nota_dobby.move",
+			"width": 402,
+			"x": 1915,
+			"y": 629
 		},
 		"JelUxfmKlZlTaLWt8pjgAfaE43liSJll": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 1926,
-			"y": 293
+			"x": 1918,
+			"y": 309
 		},
 		"Oroo4Pp1Lzb8KDUoXaDKJPSIVAOTNWj0": {
 			"height": 92,
 			"title": "store",
 			"width": 173,
-			"x": 1630,
+			"x": 1631,
 			"y": 116
 		},
 		"T6jpHdEcaxNHjUXpFbJy156bLlKnRSSM": {
 			"height": 94,
 			"title": "store",
 			"width": 327,
-			"x": 798,
+			"x": 807,
 			"y": 20
-		},
-		"VTOvU7hOwEfL4FJtCgPGIC3teCSjxdt4": {
-			"height": 112,
-			"title": "nota_dobby.unloadUnit",
-			"width": 228,
-			"x": 1933,
-			"y": 399
 		},
 		"WHv2A3ijkBPCqjzYStndISCqen3TY0fn": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1262,
+			"x": 1269,
 			"y": 92
+		},
+		"cjxtASny1KkyUnLMicbL1K3fXMK3jMNS": {
+			"height": 112,
+			"title": "nota_fileho_ttdr.unloadUnit",
+			"width": 252,
+			"x": 1907,
+			"y": 393
 		},
 		"eJ56uriQZDxlCxvTbs6QNcCvyurTkH26": {
 			"height": 90,
 			"title": "checkForEmptyList",
 			"width": 202,
-			"x": 794,
+			"x": 803,
 			"y": 132
 		},
 		"fJLNoMHZjsd6js5jE5sNFnOEvFXrt4rI": {
 			"height": 112,
 			"title": "nota_mastr_ukol1.moveUnitAlongPath",
 			"width": 768,
-			"x": 1915,
+			"x": 1916,
 			"y": -219
 		},
 		"haojvGAJA53hboruCdwymAB95IwAYwZP": {
 			"height": 150,
 			"title": "nota_mastr_ukol1.moveUnitAlongPath",
 			"width": 1019,
-			"x": 1913,
+			"x": 1914,
 			"y": 124
 		},
 		"jVQAg3aZCgx39Cvv95X1dCkAJHOlNETK": {
 			"height": 60,
 			"title": "zachranna sekvence",
 			"width": 215,
-			"x": 1638,
+			"x": 1639,
 			"y": 26
 		},
 		"kZfSWM2PzSrNwFLVqhWL5Lkyqz5zW8OV": {
 			"height": 92,
 			"title": "nota_fileho_ttdr.loadUnit",
 			"width": 236,
-			"x": 1925,
+			"x": 1926,
 			"y": -97
 		},
 		"p6chOE81FByJARPhqgYwp3QKx29OXuzR": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 553,
+			"x": 558,
 			"y": 31
 		},
 		"uDCV9W7pfNPn25yJy7IrFn0OXew3ypmP": {
 			"height": 94,
 			"title": "store",
 			"width": 757,
-			"x": 1911,
+			"x": 1912,
 			"y": -334
 		},
 		"vVAeOMBNTOmD7fS4jqbwCp2ZomGjjut2": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 1028,
+			"x": 1037,
 			"y": 249
+		},
+		"w9cB3uSMZIscmeGgKiiOGqLK4R94XJJz": {
+			"height": 94,
+			"title": "unit pis",
+			"width": 294,
+			"x": 1914,
+			"y": 520
 		},
 		"zbeJKni1dHYMlgwStWq8sz8DpbmJrzyG": {
 			"height": 94,
 			"title": "store",
 			"width": 393,
-			"x": 1262,
+			"x": 1269,
 			"y": 230
 		}
 	},
@@ -294,11 +286,11 @@
 								"nodeType": "wait",
 								"parameters": [ {
 									"name": "time",
-									"value": 5
+									"value": 10
 								} ]
 							}, {
 								"children": [],
-								"id": "VTOvU7hOwEfL4FJtCgPGIC3teCSjxdt4",
+								"id": "cjxtASny1KkyUnLMicbL1K3fXMK3jMNS",
 								"nodeType": "luaCommand",
 								"parameters": [ {
 									"name": "atlas",
@@ -311,9 +303,42 @@
 									"value": "info.safeArea"
 								}, {
 									"name": "scriptName",
-									"value": "nota_dobby.unloadUnit"
+									"value": "nota_fileho_ttdr.unloadUnit"
 								} ],
-								"scriptName": "nota_dobby.unloadUnit"
+								"scriptName": "nota_fileho_ttdr.unloadUnit"
+							}, {
+								"children": [],
+								"id": "w9cB3uSMZIscmeGgKiiOGqLK4R94XJJz",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "var",
+									"value": "unitPos"
+								}, {
+									"name": "value",
+									"value": "nota_dobby.GetUnitPosition(unit)"
+								}, {
+									"name": "scriptName",
+									"value": "store"
+								} ],
+								"scriptName": "store"
+							}, {
+								"children": [],
+								"id": "CgZ6piwI9znEB7WhB6n3lx6MVvnmRYdQ",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "unit",
+									"value": "unit"
+								}, {
+									"name": "position",
+									"value": "unitPos + Vec3(1,0,1)"
+								}, {
+									"name": "fight",
+									"value": "false"
+								}, {
+									"name": "scriptName",
+									"value": "nota_dobby.move"
+								} ],
+								"scriptName": "nota_dobby.move"
 							} ],
 							"id": "jVQAg3aZCgx39Cvv95X1dCkAJHOlNETK",
 							"nodeType": "sequence",

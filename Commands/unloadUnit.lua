@@ -28,11 +28,9 @@ end
 
 function RandomPointInCircle(x, y, z, r)
 	math.randomseed(math.random(-100000, 100000))
-	local randomX = math.random(-r, r)
-	local thisX = x + randomX / 1.75
-
-	local randomZ= math.random(-r, r)
-	local thisZ = z + randomZ / 1.75
+	local theta = math.random(-math.pi, math.pi)
+	local thisX = x + (math.sin(theta) * r * 0.9)
+	local thisZ = z + (math.cos(theta) * r * 0.9)
 
 	return {thisX, y, thisZ}
 end	

@@ -1,6 +1,6 @@
 local sensorInfo = {
-	name = "FilterNearAndFarUnits",
-	desc = "Separates Units based on if they are Near or Far from the safe Area",
+	name = "GetUnitPosition",
+	desc = "Get unit position",
 	author = "Dobby",
 	date = "2021-06-17",
 	license = "none",
@@ -22,18 +22,10 @@ function getInfo()
 end
 
 -- @description return current wind statistics
-return function(list)
-	nearList = {}
-	farList = {}
-	
-	for i = 1, #list do
-		local x, _, z = Spring.GetUnitPosition(list[i])
-		if z < 4900 then
-			nearList[#nearList + 1] = list[i]
-		elseif z > 6000  then
-			farList[#farList + 1] = list[i]
-		end
-	end
+return function(unit)
+	if not Spring.ValidUnitID(unit) then return nil end
+	local x, y, z = Spring.GetUnitPosition(unit)
 
-	return {nearList, farList}
+	local pos = Vec3(x,y,z)
+	return pos
 end
