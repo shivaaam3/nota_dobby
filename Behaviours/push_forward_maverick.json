@@ -1,0 +1,462 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 108,
+			"width": 221
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"0ogjIIJ54PiK6CBDjlfvihJlhGOPRpKf": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 2193,
+			"y": 484
+		},
+		"3gurvLuHLqfNlWJs2kQdyVNoROU28GXA": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 1274,
+			"y": 73
+		},
+		"4C017O29zfrqKDJH5b4xmJ5dPNNBC9TS": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 264,
+			"y": 13
+		},
+		"6qgGSDLbWLRW2QddbMDhKg6Ijnt31yd3": {
+			"height": 94,
+			"title": "group definition",
+			"width": 429,
+			"x": 2294,
+			"y": 124
+		},
+		"8QfVjYFDa3V6Azylio7Lo1tYVblL23va": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 236,
+			"x": 945,
+			"y": 83
+		},
+		"8bfoN60bkCKbu1Ci0vdJ2Fha1kebhxl8": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 696,
+			"y": -174
+		},
+		"IywEoQUEy72IW8bVbcLVll6wYDyEGnfh": {
+			"height": 54,
+			"title": "failure",
+			"width": 131,
+			"x": 2185,
+			"y": 624
+		},
+		"J1B6GsIqYxE4DNrExUpeAn62bdkfCNGv": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 2077,
+			"y": 348
+		},
+		"KGg3wv9KWWkgPsUcYq3ylvDUaDG9qsJw": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 1655,
+			"y": 344
+		},
+		"KklMmop4caIwTIYUEerlhec9lipG0sUf": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1278,
+			"y": 185
+		},
+		"P9sxe4r40U1KB04UlzwnyQPZxXEQrHxb": {
+			"height": 94,
+			"title": "formation definition",
+			"width": 461,
+			"x": 2289,
+			"y": 242
+		},
+		"UrebsxfWJcqb25wU8buRmkHaaV301lLj": {
+			"height": 132,
+			"title": "formation.moveCustomGroup",
+			"width": 269,
+			"x": 2467,
+			"y": 590
+		},
+		"Wv0ROcFWNsmARqsbb9fJmpmWXULoyDfX": {
+			"height": 94,
+			"title": "store",
+			"width": 472,
+			"x": 2294,
+			"y": 23
+		},
+		"Xnetkyq1xXnxUsKWRYsPXisULNBYjXri": {
+			"height": 92,
+			"title": "store",
+			"width": 360,
+			"x": 1877,
+			"y": 12
+		},
+		"ZM6KAdHtbm7NZSZundC5LIPaKHLtjyOE": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1696,
+			"y": -1
+		},
+		"aQmq51lZ08nCS9yUU6swsjfYkMap4rjj": {
+			"height": 99,
+			"title": "relative formation",
+			"width": 651,
+			"x": 2289,
+			"y": 341
+		},
+		"advTIIG7FoSAXbpzlngZdgVTnGhQOdIV": {
+			"height": 132,
+			"title": "formation.moveCustomGroup",
+			"width": 269,
+			"x": 2464,
+			"y": 449
+		},
+		"b7kkYWobh7cLrnSfuicwSKbMGZiEtyzr": {
+			"height": 94,
+			"title": "store",
+			"width": 474,
+			"x": 953,
+			"y": -254
+		},
+		"dtBAygVc793sfsRUsHEcnN2n3y8BVrP3": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 958,
+			"y": -139
+		},
+		"gWwZBA6LtAlZWZ4TxTmvJOGY1HR8svHo": {
+			"height": 94,
+			"title": "store",
+			"width": 504,
+			"x": 1887,
+			"y": -93
+		},
+		"hlCt6tAjhkvOPgW0N5TjAwWT5IB1LgJO": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 1905,
+			"y": 349
+		},
+		"iPwyQ80JhG9SxVmIH4TsOBiWvxL6Itkg": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 1511,
+			"y": -1
+		},
+		"k7LKrE1tj5KLpRxB1QNYMxsxa9FY5gXh": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 703,
+			"y": 94
+		},
+		"lRMWi7hIPksi2KbC7oesfTP7wgt93iPM": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 533,
+			"y": -174
+		},
+		"q7D1rQ5fPUxIBfYJmV2h9d91FJ3rIrW6": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 526,
+			"y": 94
+		},
+		"xtloCkcTkt8f7PmruHHh2admPKys8qNS": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 232,
+			"x": 1899,
+			"y": 526
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "b7kkYWobh7cLrnSfuicwSKbMGZiEtyzr",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "_"
+					}, {
+						"name": "value",
+						"value": "nota_mestek_labs.FilterLivingUnits(bb.unitsTable[\"armmav\"])"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "dtBAygVc793sfsRUsHEcnN2n3y8BVrP3",
+					"nodeType": "wait",
+					"parameters": [ {
+						"name": "time",
+						"value": 1
+					} ]
+				} ],
+				"id": "8bfoN60bkCKbu1Ci0vdJ2Fha1kebhxl8",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "lRMWi7hIPksi2KbC7oesfTP7wgt93iPM",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [ {
+						"children": [ {
+							"children": [ {
+								"children": [ {
+									"children": [],
+									"id": "gWwZBA6LtAlZWZ4TxTmvJOGY1HR8svHo",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "dangerStrongpointIdx"
+									}, {
+										"name": "value",
+										"value": "nota_pivodovr_sd.DangerStrongpoint(bb.unitsTable[\"armmav\"][1])"
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								}, {
+									"children": [],
+									"id": "Xnetkyq1xXnxUsKWRYsPXisULNBYjXri",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "spPos"
+									}, {
+										"name": "value",
+										"value": "bb.strongpoints[2][dangerStrongpointIdx][1]"
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								} ],
+								"id": "ZM6KAdHtbm7NZSZundC5LIPaKHLtjyOE",
+								"nodeType": "sequence",
+								"parameters": []
+							} ],
+							"id": "iPwyQ80JhG9SxVmIH4TsOBiWvxL6Itkg",
+							"nodeType": "repeat",
+							"parameters": []
+						}, {
+							"children": [ {
+								"children": [ {
+									"children": [ {
+										"children": [],
+										"id": "Wv0ROcFWNsmARqsbb9fJmpmWXULoyDfX",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "var",
+											"value": "x"
+										}, {
+											"name": "value",
+											"value": "nota_mestek_labs.FilterLivingUnits(bb.unitsTable[\"armmav\"])"
+										}, {
+											"name": "scriptName",
+											"value": "store"
+										} ],
+										"scriptName": "store"
+									}, {
+										"children": [],
+										"id": "6qgGSDLbWLRW2QddbMDhKg6Ijnt31yd3",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "var",
+											"value": "groupDefinition"
+										}, {
+											"name": "value",
+											"value": "nota_pivodovr_sd.GroupDef(bb.unitsTable[\"armmav\"])"
+										}, {
+											"name": "scriptName",
+											"value": "store"
+										} ],
+										"scriptName": "store"
+									}, {
+										"children": [],
+										"id": "P9sxe4r40U1KB04UlzwnyQPZxXEQrHxb",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "var",
+											"value": "formationDef"
+										}, {
+											"name": "value",
+											"value": "nota_pivodovr_sd.DefinitionLine(#bb.unitsTable[\"armmav\"])"
+										}, {
+											"name": "scriptName",
+											"value": "store"
+										} ],
+										"scriptName": "store"
+									}, {
+										"children": [],
+										"id": "aQmq51lZ08nCS9yUU6swsjfYkMap4rjj",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "var",
+											"value": "relFormation"
+										}, {
+											"name": "value",
+											"value": "formation.StaticTransform(formationDef.positions, 0, nil, nil)"
+										}, {
+											"name": "scriptName",
+											"value": "store"
+										} ],
+										"scriptName": "store"
+									} ],
+									"id": "J1B6GsIqYxE4DNrExUpeAn62bdkfCNGv",
+									"nodeType": "sequence",
+									"parameters": []
+								} ],
+								"id": "hlCt6tAjhkvOPgW0N5TjAwWT5IB1LgJO",
+								"nodeType": "repeat",
+								"parameters": []
+							}, {
+								"children": [ {
+									"children": [ {
+										"children": [],
+										"id": "advTIIG7FoSAXbpzlngZdgVTnGhQOdIV",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "groupDefintion",
+											"value": "groupDefinition"
+										}, {
+											"name": "position",
+											"value": "spPos"
+										}, {
+											"name": "formation",
+											"value": "relFormation"
+										}, {
+											"name": "fight",
+											"value": "true"
+										}, {
+											"name": "scriptName",
+											"value": "formation.moveCustomGroup"
+										} ],
+										"scriptName": "formation.moveCustomGroup"
+									}, {
+										"children": [],
+										"id": "UrebsxfWJcqb25wU8buRmkHaaV301lLj",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "groupDefintion",
+											"value": "groupDefinition"
+										}, {
+											"name": "position",
+											"value": "spPos"
+										}, {
+											"name": "formation",
+											"value": "relFormation"
+										}, {
+											"name": "fight",
+											"value": "true"
+										}, {
+											"name": "scriptName",
+											"value": "formation.moveCustomGroup"
+										} ],
+										"scriptName": "formation.moveCustomGroup"
+									} ],
+									"id": "0ogjIIJ54PiK6CBDjlfvihJlhGOPRpKf",
+									"nodeType": "luaCondition",
+									"parameters": [ {
+										"name": "expression",
+										"value": "math.random() < 0.5"
+									}, {
+										"name": "repeat",
+										"value": "true"
+									} ]
+								}, {
+									"children": [],
+									"id": "IywEoQUEy72IW8bVbcLVll6wYDyEGnfh",
+									"nodeType": "failure",
+									"parameters": []
+								} ],
+								"id": "xtloCkcTkt8f7PmruHHh2admPKys8qNS",
+								"nodeType": "luaCondition",
+								"parameters": [ {
+									"name": "expression",
+									"value": "#bb.unitsTable[\"armmav\"] > 0"
+								}, {
+									"name": "repeat",
+									"value": "true"
+								} ]
+							} ],
+							"id": "KGg3wv9KWWkgPsUcYq3ylvDUaDG9qsJw",
+							"nodeType": "parallel",
+							"parameters": [ {
+								"name": "mode",
+								"value": "all-success"
+							} ]
+						} ],
+						"id": "3gurvLuHLqfNlWJs2kQdyVNoROU28GXA",
+						"nodeType": "parallel",
+						"parameters": [ {
+							"name": "mode",
+							"value": "all-success"
+						} ]
+					}, {
+						"children": [],
+						"id": "KklMmop4caIwTIYUEerlhec9lipG0sUf",
+						"nodeType": "success",
+						"parameters": []
+					} ],
+					"id": "8QfVjYFDa3V6Azylio7Lo1tYVblL23va",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "#bb.unitsTable[\"armmav\"] > 0"
+					}, {
+						"name": "repeat",
+						"value": "true"
+					} ]
+				} ],
+				"id": "k7LKrE1tj5KLpRxB1QNYMxsxa9FY5gXh",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "q7D1rQ5fPUxIBfYJmV2h9d91FJ3rIrW6",
+			"nodeType": "repeat",
+			"parameters": []
+		} ],
+		"id": "4C017O29zfrqKDJH5b4xmJ5dPNNBC9TS",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	}
+}

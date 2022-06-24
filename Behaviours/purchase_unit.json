@@ -1,0 +1,126 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 148,
+			"width": 231
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "unitName"
+	}, {
+		"command": "Variable",
+		"name": "amount"
+	} ],
+	"outputs": [],
+	"properties": {
+		"GtZC5DGr9zHt0cHcE0tUrvfbCOA7Rde0": {
+			"height": 90,
+			"title": "needSeer",
+			"width": 273,
+			"x": 281,
+			"y": 20
+		},
+		"IFtLbl8ELcCqIjGarjmoNDQG6BLXUk6E": {
+			"height": 72,
+			"title": "nota_mestek_labs.buyUnit",
+			"width": 249,
+			"x": 832,
+			"y": -77
+		},
+		"XIo4G71i2PTsSLwSUgWKaUYtBHjf4r1Z": {
+			"height": 61,
+			"title": "failure",
+			"width": 149,
+			"x": 609,
+			"y": 148
+		},
+		"ZKKuEOCZX3siKDqD29eNU9eamMaD7pOC": {
+			"height": 94,
+			"title": "assign new unit",
+			"width": 336,
+			"x": 834,
+			"y": 27
+		},
+		"fdLyWR6iPM0rjWtHLr6kGbv02XHMPRHt": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 614,
+			"y": -32
+		},
+		"td0fZkvbuSc05CuzDZlesb32xM0fbLVM": {
+			"height": 72,
+			"title": "waitUntil",
+			"width": 398,
+			"x": 836,
+			"y": -195
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "td0fZkvbuSc05CuzDZlesb32xM0fbLVM",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "condition",
+					"value": "bb.metal >= bb.info.buy[unitName] + 10"
+				}, {
+					"name": "scriptName",
+					"value": "waitUntil"
+				} ],
+				"scriptName": "waitUntil"
+			}, {
+				"children": [],
+				"id": "IFtLbl8ELcCqIjGarjmoNDQG6BLXUk6E",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "unitName",
+					"value": "unitName"
+				}, {
+					"name": "scriptName",
+					"value": "nota_mestek_labs.buyUnit"
+				} ],
+				"scriptName": "nota_mestek_labs.buyUnit"
+			}, {
+				"children": [],
+				"id": "ZKKuEOCZX3siKDqD29eNU9eamMaD7pOC",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "groupToAdd"
+				}, {
+					"name": "value",
+					"value": "UpdateGroups()"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			} ],
+			"id": "fdLyWR6iPM0rjWtHLr6kGbv02XHMPRHt",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
+			"children": [],
+			"id": "XIo4G71i2PTsSLwSUgWKaUYtBHjf4r1Z",
+			"nodeType": "failure",
+			"parameters": []
+		} ],
+		"id": "GtZC5DGr9zHt0cHcE0tUrvfbCOA7Rde0",
+		"nodeType": "luaCondition",
+		"parameters": [ {
+			"name": "expression",
+			"value": "#bb.unitsTable[unitName] < amount"
+		}, {
+			"name": "repeat",
+			"value": "false"
+		} ]
+	}
+}

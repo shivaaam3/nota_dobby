@@ -1,0 +1,132 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 108,
+			"width": 231
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"37gfAJZU9JRWq6nZlQFDBZED57AJp9Oa": {
+			"height": 172,
+			"title": "Purchase Luger",
+			"width": 248,
+			"x": 1218,
+			"y": 89
+		},
+		"3JI1VjnwwlJyUGkxMUYScEZxSgdJsKow": {
+			"height": 172,
+			"title": "Purchase Farks",
+			"width": 246,
+			"x": 916,
+			"y": -234
+		},
+		"6bWIz4igoGS8eIaGfDwgLOfZGoOsLG6U": {
+			"height": 70,
+			"title": "selector",
+			"width": 131,
+			"x": 659,
+			"y": 13
+		},
+		"BIdd8Q1LKE8kKfGF5wYepTprCYGd0WAD": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 947,
+			"y": 51
+		},
+		"FT1bzJgiEsgpQsM3OwUe4RZt0WibXJvf": {
+			"height": 172,
+			"title": "Purchase Mavericks",
+			"width": 246,
+			"x": 1209,
+			"y": -103
+		},
+		"YQlDCb7iyJRA9fgXbtgyuvy81xGDtbhR": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 304,
+			"y": 17
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "3JI1VjnwwlJyUGkxMUYScEZxSgdJsKow",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_dobby.purchase_unit"
+				} ],
+				"referenceInputs": [ {
+					"name": "unitName",
+					"value": "\"armfark\""
+				}, {
+					"name": "amount",
+					"value": "3"
+				} ],
+				"referenceOutputs": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "FT1bzJgiEsgpQsM3OwUe4RZt0WibXJvf",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_dobby.purchase_unit"
+					} ],
+					"referenceInputs": [ {
+						"name": "unitName",
+						"value": "\"armmav\""
+					}, {
+						"name": "amount",
+						"value": "20"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "37gfAJZU9JRWq6nZlQFDBZED57AJp9Oa",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_dobby.purchase_unit"
+					} ],
+					"referenceInputs": [ {
+						"name": "unitName",
+						"value": "\"armmart\""
+					}, {
+						"name": "amount",
+						"value": "20"
+					} ],
+					"referenceOutputs": []
+				} ],
+				"id": "BIdd8Q1LKE8kKfGF5wYepTprCYGd0WAD",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "math.random() < 0.2"
+				}, {
+					"name": "repeat",
+					"value": "false"
+				} ]
+			} ],
+			"id": "6bWIz4igoGS8eIaGfDwgLOfZGoOsLG6U",
+			"nodeType": "selector",
+			"parameters": [ {
+				"name": "active",
+				"value": "true"
+			} ]
+		} ],
+		"id": "YQlDCb7iyJRA9fgXbtgyuvy81xGDtbhR",
+		"nodeType": "repeat",
+		"parameters": []
+	}
+}
