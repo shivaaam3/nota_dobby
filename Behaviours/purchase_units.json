@@ -29,7 +29,7 @@
 			"height": 172,
 			"title": "Purchase Artillery",
 			"width": 248,
-			"x": 1158,
+			"x": 1157,
 			"y": 127
 		},
 		"3JI1VjnwwlJyUGkxMUYScEZxSgdJsKow": {
@@ -50,14 +50,14 @@
 			"height": 172,
 			"title": "Purchase Farks",
 			"width": 246,
-			"x": 1224,
+			"x": 1223,
 			"y": -184
 		},
 		"FT1bzJgiEsgpQsM3OwUe4RZt0WibXJvf": {
 			"height": 172,
 			"title": "Purchase Mavericks",
 			"width": 246,
-			"x": 1163,
+			"x": 1162,
 			"y": 311
 		},
 		"YQlDCb7iyJRA9fgXbtgyuvy81xGDtbhR": {
@@ -71,7 +71,7 @@
 			"height": 54,
 			"title": "failure",
 			"width": 131,
-			"x": 1166,
+			"x": 1165,
 			"y": 634
 		},
 		"iQYuWUvfX4vWyYdFs74RBnGvbgJxZZhV": {
@@ -85,7 +85,7 @@
 			"height": 54,
 			"title": "failure",
 			"width": 131,
-			"x": 1255,
+			"x": 1254,
 			"y": 15
 		},
 		"xx773KYelH3YWf6FBeDb1cSGGaIpF3gB": {
@@ -163,7 +163,7 @@
 					"value": "\"armmart\""
 				}, {
 					"name": "amount",
-					"value": "9"
+					"value": "7"
 				} ],
 				"referenceOutputs": []
 			}, {
@@ -179,7 +179,7 @@
 					"value": "\"armmav\""
 				}, {
 					"name": "amount",
-					"value": "4"
+					"value": "8"
 				} ],
 				"referenceOutputs": []
 			} ],
