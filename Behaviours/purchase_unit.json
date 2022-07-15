@@ -15,47 +15,47 @@
 	} ],
 	"outputs": [],
 	"properties": {
+		"8K1KJjD54IzpV1gbeKoYZzCqE4Gat0wy": {
+			"height": 54,
+			"title": "failure",
+			"width": 131,
+			"x": 857,
+			"y": 115
+		},
 		"GtZC5DGr9zHt0cHcE0tUrvfbCOA7Rde0": {
 			"height": 90,
 			"title": "needSeer",
-			"width": 273,
-			"x": 281,
+			"width": 485,
+			"x": 292,
 			"y": 20
 		},
 		"IFtLbl8ELcCqIjGarjmoNDQG6BLXUk6E": {
 			"height": 72,
 			"title": "nota_mestek_labs.buyUnit",
 			"width": 249,
-			"x": 832,
-			"y": -77
-		},
-		"XIo4G71i2PTsSLwSUgWKaUYtBHjf4r1Z": {
-			"height": 61,
-			"title": "failure",
-			"width": 149,
-			"x": 609,
-			"y": 148
+			"x": 1076,
+			"y": -99
 		},
 		"ZKKuEOCZX3siKDqD29eNU9eamMaD7pOC": {
 			"height": 94,
 			"title": "assign new unit",
 			"width": 336,
-			"x": 834,
-			"y": 27
+			"x": 1078,
+			"y": 5
 		},
 		"fdLyWR6iPM0rjWtHLr6kGbv02XHMPRHt": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 614,
-			"y": -32
+			"x": 858,
+			"y": -54
 		},
 		"td0fZkvbuSc05CuzDZlesb32xM0fbLVM": {
 			"height": 72,
 			"title": "waitUntil",
 			"width": 398,
-			"x": 836,
-			"y": -195
+			"x": 1080,
+			"y": -217
 		}
 	},
 	"roles": [ {
@@ -109,7 +109,7 @@
 			"parameters": []
 		}, {
 			"children": [],
-			"id": "XIo4G71i2PTsSLwSUgWKaUYtBHjf4r1Z",
+			"id": "8K1KJjD54IzpV1gbeKoYZzCqE4Gat0wy",
 			"nodeType": "failure",
 			"parameters": []
 		} ],
@@ -117,7 +117,7 @@
 		"nodeType": "luaCondition",
 		"parameters": [ {
 			"name": "expression",
-			"value": "#bb.unitsTable[unitName] < amount"
+			"value": "bb.unitsTable[unitName] == nil or #bb.unitsTable[unitName] < amount"
 		}, {
 			"name": "repeat",
 			"value": "false"

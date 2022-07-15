@@ -13,70 +13,70 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1776,
+			"x": 1775,
 			"y": 727
 		},
 		"9Z08hxdL8hqG7YYBvYHG9gw7i755mVN0": {
 			"height": 92,
 			"title": "nota_mestek_labs.fireAt",
 			"width": 268,
-			"x": 2001,
+			"x": 2000,
 			"y": 717
 		},
 		"9dhX2Uaq32p2zv2XDGIfG394P1udtxNf": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 798,
+			"x": 799,
 			"y": -115
 		},
 		"ETisjRPWAYALH8AazrBdnwK1NVXDJi2S": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 1975,
+			"x": 1974,
 			"y": 852
 		},
 		"EUEsCWFHw9P3lIQ2bUNEXF9OjzkubCdI": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 2113,
-			"y": 182
+			"x": 2276,
+			"y": 201
 		},
 		"GQvtPlImUVir6A61c8FbHAd2TelP66Z2": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1914,
-			"y": 57
+			"x": 2003,
+			"y": 70
 		},
 		"KKgxzJymd1mLChL7C3y913EqMkK2y8Da": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 1863,
-			"y": 177
+			"x": 2026,
+			"y": 196
 		},
 		"Ks5Be2Av17einqOe1Bt9fY3ukvWVdLBN": {
 			"height": 94,
 			"title": "store",
 			"width": 474,
-			"x": 1009,
+			"x": 1010,
 			"y": -68
 		},
 		"MoOblXvfFw48dvg3gbvoeFL0ONhdnV1D": {
 			"height": 99,
 			"title": "relative formation",
 			"width": 651,
-			"x": 2359,
-			"y": 844
+			"x": 2357,
+			"y": 833
 		},
 		"NAeNnRXE5pHdvFXRcmFJeaZvKOogDCPV": {
 			"height": 94,
 			"title": "group definition",
 			"width": 431,
-			"x": 2364,
+			"x": 2363,
 			"y": 627
 		},
 		"PzwpdIapepueZztvArnWILSgIPBxO0bj": {
@@ -90,92 +90,92 @@
 			"height": 99,
 			"title": "relative formation",
 			"width": 651,
-			"x": 2497,
-			"y": 174
+			"x": 2660,
+			"y": 193
 		},
 		"R2ExwALt9wlh0LNSeiizZovxBAEhOOc4": {
-			"height": 90,
+			"height": 88,
 			"title": "luaCondition",
-			"width": 194,
-			"x": 1532,
-			"y": 60
+			"width": 228,
+			"x": 1498,
+			"y": 65
 		},
 		"RKMKHMSLoNpnZoikrVgCCaUUG9AEsfXM": {
 			"height": 94,
 			"title": "store",
 			"width": 602,
-			"x": 1003,
+			"x": 1004,
 			"y": -190
 		},
 		"XgJaKFkd2gKPb5F3d1kW6fjP0jx590vO": {
 			"height": 92,
 			"title": "nota_mestek_labs.fireAt",
 			"width": 268,
-			"x": 2139,
-			"y": 47
+			"x": 2228,
+			"y": 60
 		},
 		"ZrSXLoiGe2Z59MpyQM6Em9tAbs9LODEj": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 2285,
-			"y": 181
+			"x": 2448,
+			"y": 200
 		},
 		"aOHASPF8anF0P0kDRyH5hM7Hg1Hw5NjT": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 958,
+			"x": 959,
 			"y": 320
 		},
 		"ahU5OPEGeMNpg7fdjoF1NpKA2Rb6bpYg": {
 			"height": 94,
 			"title": "formation definition",
 			"width": 353,
-			"x": 2359,
-			"y": 745
+			"x": 2363,
+			"y": 730
 		},
 		"bykbYv16oQbDYfTQNKpsXODiNGHQKLsO": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 194,
-			"x": 1960,
+			"x": 1959,
 			"y": 1004
 		},
 		"cvJt1gorMGt0YbkQ8l5cLeuQoeLfCeS2": {
 			"height": 132,
 			"title": "formation.moveCustomGroup",
 			"width": 269,
-			"x": 2320,
-			"y": 412
+			"x": 2483,
+			"y": 431
 		},
 		"deAhs2SjzjmHSfjmPe1JFmajRM3vMqtI": {
 			"height": 94,
 			"title": "group definition",
 			"width": 431,
-			"x": 2502,
-			"y": -43
+			"x": 2664,
+			"y": -24
 		},
 		"gfqlVEg42u37zdX1ckh3op0sZdaJqySv": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 194,
-			"x": 2098,
-			"y": 334
+			"x": 2261,
+			"y": 353
 		},
 		"kawaBZRxRIt815eD4TeRm24v7o4eMNV3": {
 			"height": 132,
 			"title": "formation.moveCustomGroup",
 			"width": 269,
-			"x": 2181,
+			"x": 2180,
 			"y": 938
 		},
 		"kwenaJ4MhW9lmPGgTeSal94LmLH1r9rO": {
 			"height": 94,
 			"title": "formation definition",
 			"width": 353,
-			"x": 2497,
-			"y": 75
+			"x": 2659,
+			"y": 94
 		},
 		"mdT9CuTJ0z44Ezn8Sv5zPe8mAOmLEjPP": {
 			"height": 90,
@@ -195,35 +195,35 @@
 			"height": 94,
 			"title": "store",
 			"width": 495,
-			"x": 995,
+			"x": 996,
 			"y": -405
 		},
 		"p1EFck8AGpqNVIB1wmkaE46LQPqMHiQf": {
 			"height": 132,
 			"title": "formation.moveCustomGroup",
 			"width": 269,
-			"x": 2319,
-			"y": 268
+			"x": 2482,
+			"y": 287
 		},
 		"qwPfZjRPMHpZYNR3JkOmZ4WnpmyBF302": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 255,
+			"x": 254,
 			"y": 22
 		},
 		"uh1GCELa5nQHNBjYzz7EndogwnLFrZ9u": {
 			"height": 92,
 			"title": "store",
 			"width": 360,
-			"x": 1001,
+			"x": 1002,
 			"y": -294
 		},
 		"vACVwldI2wniCrKwJ8iFJDkiLc9Duz9b": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 194,
-			"x": 1009,
+			"x": 1010,
 			"y": 151
 		},
 		"x2TiT4IkcYqmzMnhFZRszogR5QjVIWNj": {
@@ -237,14 +237,14 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 2147,
+			"x": 2146,
 			"y": 851
 		},
 		"zo4k2ePkSSXVO1uZE9xeHLZakzJGP9fe": {
 			"height": 132,
 			"title": "formation.moveCustomGroup",
 			"width": 269,
-			"x": 2182,
+			"x": 2181,
 			"y": 1082
 		}
 	},
@@ -276,7 +276,7 @@
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
-						"value": "spPos"
+						"value": "target_danger"
 					}, {
 						"name": "value",
 						"value": "bb.strongpoints[2][dangerStrongpointIdx][1]"
@@ -309,7 +309,7 @@
 						"value": "_"
 					}, {
 						"name": "value",
-						"value": "nota_mestek_labs.FilterLivingUnits(bb.unitsTable[\"armmav\"])"
+						"value": "nota_mestek_labs.FilterLivingUnits(bb.unitsTable[\"armmart\"])"
 					}, {
 						"name": "scriptName",
 						"value": "store"
@@ -370,7 +370,7 @@
 									"nodeType": "luaCommand",
 									"parameters": [ {
 										"name": "var",
-										"value": "formationDef"
+										"value": "formationDefinition"
 									}, {
 										"name": "value",
 										"value": "formation.Definition(\"swarm\")"
@@ -385,10 +385,10 @@
 									"nodeType": "luaCommand",
 									"parameters": [ {
 										"name": "var",
-										"value": "relFormation"
+										"value": "relativeFormation"
 									}, {
 										"name": "value",
-										"value": "formation.StaticTransform(formationDef.positions, 0, nil, nil)"
+										"value": "formation.StaticTransform(formationDefinition.positions, 0, nil, nil)"
 									}, {
 										"name": "scriptName",
 										"value": "store"
@@ -412,10 +412,10 @@
 									"value": "groupDefinition"
 								}, {
 									"name": "position",
-									"value": "spPos"
+									"value": "target_danger"
 								}, {
 									"name": "formation",
-									"value": "relFormation"
+									"value": "relativeFormation"
 								}, {
 									"name": "fight",
 									"value": "true"
@@ -433,10 +433,10 @@
 									"value": "groupDefinition"
 								}, {
 									"name": "position",
-									"value": "spPos"
+									"value": "target_danger"
 								}, {
 									"name": "formation",
-									"value": "relFormation"
+									"value": "relativeFormation"
 								}, {
 									"name": "fight",
 									"value": "true"
@@ -517,7 +517,7 @@
 									"nodeType": "luaCommand",
 									"parameters": [ {
 										"name": "var",
-										"value": "formationDef"
+										"value": "formationDefinition"
 									}, {
 										"name": "value",
 										"value": "formation.Definition(\"swarm\")"
@@ -532,10 +532,10 @@
 									"nodeType": "luaCommand",
 									"parameters": [ {
 										"name": "var",
-										"value": "relFormation"
+										"value": "relativeFormation"
 									}, {
 										"name": "value",
-										"value": "formation.StaticTransform(formationDef.positions, 0, nil, nil)"
+										"value": "formation.StaticTransform(formationDefinition.positions, 0, nil, nil)"
 									}, {
 										"name": "scriptName",
 										"value": "store"
@@ -559,10 +559,10 @@
 									"value": "groupDefinition"
 								}, {
 									"name": "position",
-									"value": "spPos"
+									"value": "target_danger"
 								}, {
 									"name": "formation",
-									"value": "relFormation"
+									"value": "relativeFormation"
 								}, {
 									"name": "fight",
 									"value": "true"
@@ -580,10 +580,10 @@
 									"value": "groupDefinition"
 								}, {
 									"name": "position",
-									"value": "spPos"
+									"value": "target_danger"
 								}, {
 									"name": "formation",
-									"value": "relFormation"
+									"value": "relativeFormation"
 								}, {
 									"name": "fight",
 									"value": "true"

@@ -75,7 +75,7 @@
 		"sLnUVu7pQBP0gpWNgdmaFXD6voljownl": {
 			"height": 72,
 			"title": "waitUntil",
-			"width": 293,
+			"width": 301,
 			"x": 923,
 			"y": 105
 		},
@@ -155,7 +155,7 @@
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "condition",
-						"value": "bb.info.goodStrongpoints > 9"
+						"value": "bb.info.goodStrongpoints >= 9"
 					}, {
 						"name": "scriptName",
 						"value": "waitUntil"

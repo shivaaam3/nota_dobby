@@ -13,78 +13,78 @@
 			"height": 90,
 			"title": "luaCondition",
 			"width": 194,
-			"x": 2193,
+			"x": 2195,
 			"y": 484
 		},
 		"3gurvLuHLqfNlWJs2kQdyVNoROU28GXA": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 1274,
+			"x": 1278,
 			"y": 73
 		},
 		"4C017O29zfrqKDJH5b4xmJ5dPNNBC9TS": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 264,
+			"x": 267,
 			"y": 13
 		},
 		"6qgGSDLbWLRW2QddbMDhKg6Ijnt31yd3": {
 			"height": 94,
 			"title": "group definition",
 			"width": 429,
-			"x": 2294,
-			"y": 124
+			"x": 2355,
+			"y": 108
 		},
 		"8QfVjYFDa3V6Azylio7Lo1tYVblL23va": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 236,
-			"x": 945,
+			"x": 947,
 			"y": 83
 		},
 		"8bfoN60bkCKbu1Ci0vdJ2Fha1kebhxl8": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 696,
+			"x": 698,
 			"y": -174
 		},
 		"IywEoQUEy72IW8bVbcLVll6wYDyEGnfh": {
 			"height": 54,
 			"title": "failure",
 			"width": 131,
-			"x": 2185,
+			"x": 2187,
 			"y": 624
 		},
 		"J1B6GsIqYxE4DNrExUpeAn62bdkfCNGv": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 2077,
-			"y": 348
+			"x": 2140,
+			"y": 332
 		},
 		"KGg3wv9KWWkgPsUcYq3ylvDUaDG9qsJw": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 1655,
+			"x": 1659,
 			"y": 344
 		},
 		"KklMmop4caIwTIYUEerlhec9lipG0sUf": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 1278,
+			"x": 1282,
 			"y": 185
 		},
 		"P9sxe4r40U1KB04UlzwnyQPZxXEQrHxb": {
 			"height": 94,
 			"title": "formation definition",
 			"width": 461,
-			"x": 2289,
-			"y": 242
+			"x": 2350,
+			"y": 226
 		},
 		"UrebsxfWJcqb25wU8buRmkHaaV301lLj": {
 			"height": 132,
@@ -97,29 +97,22 @@
 			"height": 94,
 			"title": "store",
 			"width": 472,
-			"x": 2294,
-			"y": 23
-		},
-		"Xnetkyq1xXnxUsKWRYsPXisULNBYjXri": {
-			"height": 92,
-			"title": "store",
-			"width": 360,
-			"x": 1877,
-			"y": 12
+			"x": 2355,
+			"y": 7
 		},
 		"ZM6KAdHtbm7NZSZundC5LIPaKHLtjyOE": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1696,
+			"x": 1700,
 			"y": -1
 		},
 		"aQmq51lZ08nCS9yUU6swsjfYkMap4rjj": {
 			"height": 99,
 			"title": "relative formation",
 			"width": 651,
-			"x": 2289,
-			"y": 341
+			"x": 2350,
+			"y": 325
 		},
 		"advTIIG7FoSAXbpzlngZdgVTnGhQOdIV": {
 			"height": 132,
@@ -132,63 +125,63 @@
 			"height": 94,
 			"title": "store",
 			"width": 474,
-			"x": 953,
-			"y": -254
+			"x": 985,
+			"y": -258
 		},
 		"dtBAygVc793sfsRUsHEcnN2n3y8BVrP3": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 958,
+			"x": 960,
 			"y": -139
-		},
-		"gWwZBA6LtAlZWZ4TxTmvJOGY1HR8svHo": {
-			"height": 94,
-			"title": "store",
-			"width": 504,
-			"x": 1887,
-			"y": -93
 		},
 		"hlCt6tAjhkvOPgW0N5TjAwWT5IB1LgJO": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 1905,
+			"x": 1907,
 			"y": 349
 		},
 		"iPwyQ80JhG9SxVmIH4TsOBiWvxL6Itkg": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 1511,
+			"x": 1515,
 			"y": -1
+		},
+		"jAkn0ttixI0OtsqIEL9Ei9U9W87s53Hq": {
+			"height": 92,
+			"title": "store",
+			"width": 402,
+			"x": 1871,
+			"y": -12
 		},
 		"k7LKrE1tj5KLpRxB1QNYMxsxa9FY5gXh": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 703,
+			"x": 705,
 			"y": 94
 		},
 		"lRMWi7hIPksi2KbC7oesfTP7wgt93iPM": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 533,
+			"x": 536,
 			"y": -174
 		},
 		"q7D1rQ5fPUxIBfYJmV2h9d91FJ3rIrW6": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 526,
+			"x": 529,
 			"y": 94
 		},
 		"xtloCkcTkt8f7PmruHHh2admPKys8qNS": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 232,
-			"x": 1899,
+			"x": 1901,
 			"y": 526
 		}
 	},
@@ -238,29 +231,14 @@
 							"children": [ {
 								"children": [ {
 									"children": [],
-									"id": "gWwZBA6LtAlZWZ4TxTmvJOGY1HR8svHo",
+									"id": "jAkn0ttixI0OtsqIEL9Ei9U9W87s53Hq",
 									"nodeType": "luaCommand",
 									"parameters": [ {
 										"name": "var",
-										"value": "dangerStrongpointIdx"
+										"value": "target_Safe"
 									}, {
 										"name": "value",
-										"value": "nota_pivodovr_sd.DangerStrongpoint(bb.unitsTable[\"armmav\"][1])"
-									}, {
-										"name": "scriptName",
-										"value": "store"
-									} ],
-									"scriptName": "store"
-								}, {
-									"children": [],
-									"id": "Xnetkyq1xXnxUsKWRYsPXisULNBYjXri",
-									"nodeType": "luaCommand",
-									"parameters": [ {
-										"name": "var",
-										"value": "spPos"
-									}, {
-										"name": "value",
-										"value": "bb.strongpoints[2][dangerStrongpointIdx][1]"
+										"value": "bb.strongpoints[2][bb.info.goodStrongpoints - 5][1]"
 									}, {
 										"name": "scriptName",
 										"value": "store"
@@ -283,7 +261,7 @@
 										"nodeType": "luaCommand",
 										"parameters": [ {
 											"name": "var",
-											"value": "x"
+											"value": "_"
 										}, {
 											"name": "value",
 											"value": "nota_mestek_labs.FilterLivingUnits(bb.unitsTable[\"armmav\"])"
@@ -313,10 +291,10 @@
 										"nodeType": "luaCommand",
 										"parameters": [ {
 											"name": "var",
-											"value": "formationDef"
+											"value": "formationDefinition"
 										}, {
 											"name": "value",
-											"value": "nota_pivodovr_sd.DefinitionLine(#bb.unitsTable[\"armmav\"])"
+											"value": "formation.Definition(\"swarm\")"
 										}, {
 											"name": "scriptName",
 											"value": "store"
@@ -328,10 +306,10 @@
 										"nodeType": "luaCommand",
 										"parameters": [ {
 											"name": "var",
-											"value": "relFormation"
+											"value": "relativeFormation"
 										}, {
 											"name": "value",
-											"value": "formation.StaticTransform(formationDef.positions, 0, nil, nil)"
+											"value": "formation.StaticTransform(formationDefinition.positions, 0, nil, nil)"
 										}, {
 											"name": "scriptName",
 											"value": "store"
@@ -356,10 +334,10 @@
 											"value": "groupDefinition"
 										}, {
 											"name": "position",
-											"value": "spPos"
+											"value": "target_Safe"
 										}, {
 											"name": "formation",
-											"value": "relFormation"
+											"value": "relativeFormation"
 										}, {
 											"name": "fight",
 											"value": "true"
@@ -377,10 +355,10 @@
 											"value": "groupDefinition"
 										}, {
 											"name": "position",
-											"value": "spPos"
+											"value": "target_Safe"
 										}, {
 											"name": "formation",
-											"value": "relFormation"
+											"value": "relativeFormation"
 										}, {
 											"name": "fight",
 											"value": "true"

@@ -1,0 +1,241 @@
+{
+	"additionalNodes": [ {
+		"children": [],
+		"id": "hKEny9L8K2mDXliT7T7HMKyEyxcVoeRv",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	} ],
+	"additionalParameters": {
+		"root": {
+			"height": 108,
+			"width": 223
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"2YWMZPLN5POiLysNCtWTQgCM5afsGsmD": {
+			"height": 94,
+			"title": "store",
+			"width": 474,
+			"x": 1109,
+			"y": -79
+		},
+		"9fciQ3ZH1dj4PgVla45YJOXv5P3DWVAb": {
+			"height": 112,
+			"title": "nota_dobby.move",
+			"width": 420,
+			"x": 1495,
+			"y": 242
+		},
+		"BhA6jDuT6Q2VhuuZjgH38sqv5KuPCTqw": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 194,
+			"x": 1129,
+			"y": 286
+		},
+		"JJtIE7SXE9d1R64CCcQQ1gSKyQh6y8is": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 597,
+			"y": 1
+		},
+		"LMiFDrsQAgl2JSBcTfyZCF7dnn6VaGYk": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1132,
+			"y": 480
+		},
+		"aSSWCkLNVEbv8feKW5VRyEhWQhRcWAZu": {
+			"height": 112,
+			"title": "nota_dobby.move",
+			"width": 420,
+			"x": 1490,
+			"y": 357
+		},
+		"fBaswdBWh9umhXYha1oIjISZ9JwIx2HE": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 1110,
+			"y": 143
+		},
+		"hKEny9L8K2mDXliT7T7HMKyEyxcVoeRv": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 1306,
+			"y": 638
+		},
+		"i18gYEoQZC7pIWFxhTiqmdqAHcPdGs1d": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 259,
+			"y": 13
+		},
+		"sFBwOHBcNAFIt05LyLMYlXZDBQISgvWt": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 233,
+			"x": 735,
+			"y": 379
+		},
+		"tWbC3fAnbDVbsstChrCvRxj1RwnCWZTh": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 542,
+			"y": 391
+		},
+		"uSys3NgjKkEP5Cwxgpwp4zHR7ebih7r1": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 853,
+			"y": 1
+		},
+		"xFZaSezymBNraruwcB6QjSA4PcZ3CWB3": {
+			"height": 92,
+			"title": "store",
+			"width": 471,
+			"x": 1103,
+			"y": 35
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "2YWMZPLN5POiLysNCtWTQgCM5afsGsmD",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "_"
+					}, {
+						"name": "value",
+						"value": "nota_mestek_labs.FilterLivingUnits(bb.unitsTable[\"armseer\"])"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "xFZaSezymBNraruwcB6QjSA4PcZ3CWB3",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "target"
+					}, {
+						"name": "value",
+						"value": "bb.strongpoints[2][bb.info.goodStrongpoints - 6][1]"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "fBaswdBWh9umhXYha1oIjISZ9JwIx2HE",
+					"nodeType": "wait",
+					"parameters": [ {
+						"name": "time",
+						"value": 1
+					} ]
+				} ],
+				"id": "uSys3NgjKkEP5Cwxgpwp4zHR7ebih7r1",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "JJtIE7SXE9d1R64CCcQQ1gSKyQh6y8is",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "9fciQ3ZH1dj4PgVla45YJOXv5P3DWVAb",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "unit",
+							"value": "bb.unitsTable[\"armseer\"][1]"
+						}, {
+							"name": "position",
+							"value": "target"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "nota_dobby.move"
+						} ],
+						"scriptName": "nota_dobby.move"
+					}, {
+						"children": [],
+						"id": "aSSWCkLNVEbv8feKW5VRyEhWQhRcWAZu",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "unit",
+							"value": "bb.unitsTable[\"armseer\"][1]"
+						}, {
+							"name": "position",
+							"value": "target"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "nota_dobby.move"
+						} ],
+						"scriptName": "nota_dobby.move"
+					} ],
+					"id": "BhA6jDuT6Q2VhuuZjgH38sqv5KuPCTqw",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "math.random() < 0.5"
+					}, {
+						"name": "repeat",
+						"value": "true"
+					} ]
+				}, {
+					"children": [],
+					"id": "LMiFDrsQAgl2JSBcTfyZCF7dnn6VaGYk",
+					"nodeType": "success",
+					"parameters": []
+				} ],
+				"id": "sFBwOHBcNAFIt05LyLMYlXZDBQISgvWt",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "#bb.unitsTable[\"armseer\"] > 0"
+				}, {
+					"name": "repeat",
+					"value": "true"
+				} ]
+			} ],
+			"id": "tWbC3fAnbDVbsstChrCvRxj1RwnCWZTh",
+			"nodeType": "repeat",
+			"parameters": []
+		} ],
+		"id": "i18gYEoQZC7pIWFxhTiqmdqAHcPdGs1d",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	}
+}

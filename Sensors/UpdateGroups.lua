@@ -21,7 +21,7 @@ end
 -- }
 
 function CheckForUnitType(name)
-    if name == "armmart" or name == "armmav" or name == "armfark" or name == "armpeep" or name == "armseer" then return true end
+    if name == "armmart" or name == "armmav" or name == "armfark" or name == "armpeep" or name == "armseer" or name == "armspy" or name ==  "armzeus" then return true end
     return false 
 end
 

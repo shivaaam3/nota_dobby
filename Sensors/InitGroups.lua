@@ -22,7 +22,9 @@ return function()
         ["armmav"] = {},
         ["armfark"] = {},
         ["armpeep"] = {},
-        ["armseer"] = {}
+        ["armseer"] = {},
+        ["armspy"] = {},
+        ["armzeus"] = {}
     }
     return groups
 end

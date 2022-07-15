@@ -22,5 +22,7 @@ return function()
     groups["armfark"] = 0
     groups["armpeep"] = 0
     groups["armseer"] = 0
+    groups["armspy"] = 0
+    groups["armzeus"] = 0
     return groups
 end

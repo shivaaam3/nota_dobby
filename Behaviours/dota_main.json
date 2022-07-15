@@ -13,231 +13,238 @@
 			"height": 94,
 			"title": "time until next wave",
 			"width": 323,
-			"x": 2120,
+			"x": 2118,
 			"y": 461
 		},
 		"C7jUmBTXj3vsvHjHYRoWgOKjSwwmInQM": {
 			"height": 94,
 			"title": "strongpoints",
 			"width": 334,
-			"x": 1684,
+			"x": 1683,
 			"y": -376
 		},
 		"DCaGieGsBMPuNc0f6pmWgAEgTpQDkqR0": {
 			"height": 94,
 			"title": "init table of assigned units",
 			"width": 288,
-			"x": 1259,
+			"x": 1257,
 			"y": -230
 		},
 		"Eaw0zgUCPU3sVewmly8bY4MYWt3SHV42": {
 			"height": 94,
 			"title": "store",
 			"width": 273,
-			"x": 949,
+			"x": 947,
 			"y": -469
 		},
 		"Fnu8PMELRSvdRrwrxUFSUYyl6P57Pe0o": {
 			"height": 94,
 			"title": "init groups",
 			"width": 239,
-			"x": 949,
+			"x": 947,
 			"y": -275
 		},
 		"GQAg7pNdTsdkWnlNmxMgdk4aEowGax9G": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 825,
+			"x": 823,
 			"y": 526
 		},
 		"JYPURCJfDs69viF20HI5PdaOpuPJEsle": {
 			"height": 94,
 			"title": "store",
 			"width": 366,
-			"x": 1949,
+			"x": 1946,
 			"y": 618
 		},
 		"Krnu6Be55hZTWxZXOnhb0eZGDa4dFWb9": {
 			"height": 60,
 			"title": "Initialisation",
 			"width": 212,
-			"x": 611,
+			"x": 610,
 			"y": -457
 		},
 		"NOe3ob9rLrrdkKB7CIRTnzx5ntp925UP": {
 			"height": 92,
 			"title": "First Wave",
 			"width": 149,
-			"x": 1366,
+			"x": 1363,
 			"y": -58
 		},
 		"PMB9ZWcTAnhJo8I8ioklXiF3ARajOBDS": {
 			"height": 94,
 			"title": "corridors",
 			"width": 313,
-			"x": 1248,
+			"x": 1246,
 			"y": -421
 		},
 		"QdLDAnGAboBx9nZCRql22GCsQYgkOfWy": {
 			"height": 110,
 			"title": "reference",
 			"width": 308,
-			"x": 809,
-			"y": 1145
+			"x": 786,
+			"y": 1235
 		},
 		"TFjYcBkdpEr5bqIiXPTHL8SOFmjiqKA6": {
 			"height": 94,
 			"title": "fill groups with existing units",
 			"width": 352,
-			"x": 1746,
+			"x": 1744,
 			"y": -182
 		},
 		"TVYg2jwPbBsp0n0HMYSYPCigrKM6rd5H": {
 			"height": 94,
 			"title": "missionInfo",
 			"width": 198,
-			"x": 962,
+			"x": 960,
 			"y": -649
 		},
 		"Wmwvut31jtIMZmZdKoC3bKPWLtr3T7dh": {
 			"height": 94,
 			"title": "update groups",
 			"width": 352,
-			"x": 1460,
+			"x": 1457,
 			"y": 571
 		},
 		"WtZoUSH40E2oPmP4d94bcvYIC8jZV9ag": {
 			"height": 60,
 			"title": "update of sensors",
 			"width": 196,
-			"x": 1058,
+			"x": 1056,
 			"y": 525
 		},
 		"cGQqZuRvq2UqhDLeAYDdl6CAVlR7Ofdm": {
 			"height": 92,
 			"title": "First Wave",
 			"width": 149,
-			"x": 1394,
+			"x": 1391,
 			"y": 253
+		},
+		"ew5v5sxEetVkIzXj1eVq7XEnTrCZKrWJ": {
+			"height": 110,
+			"title": "reference",
+			"width": 239,
+			"x": 802,
+			"y": 838
 		},
 		"faSot7OcUY8lRMt2UpHAYcfYBstv7XCE": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 757,
+			"x": 755,
 			"y": 278
 		},
 		"fhTCkrhQzREiPVQb8aAzOiikAWbLYBkJ": {
 			"height": 130,
 			"title": "reference",
 			"width": 253,
-			"x": 801,
+			"x": 799,
 			"y": 702
 		},
 		"hRFSdogVns3LKa4MdfbxRAgAmL0Op8te": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 281,
+			"x": 280,
 			"y": 10
 		},
 		"j7zBUB1Dpayb32f5FlfNKI7XJP8b6SeM": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 476,
+			"x": 477,
 			"y": 378
 		},
 		"lVbojWAGQKXL4v9Swek9mbgpjthX4pEZ": {
 			"height": 94,
 			"title": "missionInfo",
 			"width": 198,
-			"x": 1442,
+			"x": 1439,
 			"y": 367
 		},
 		"mZUfYQY7iQGdABxhoAezoRPtfxkXLsLf": {
 			"height": 94,
 			"title": "metal",
 			"width": 291,
-			"x": 960,
+			"x": 958,
 			"y": -107
 		},
 		"mqobKmPt2exZHnx9zsZunPFuPr5ehTHZ": {
 			"height": 94,
 			"title": "store",
 			"width": 366,
-			"x": 2099,
-			"y": -342
+			"x": 2094,
+			"y": -327
 		},
 		"nVYBtDdMXQqakwVp68w89CEJfXHpo6zV": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 1192,
+			"x": 1190,
 			"y": 318
 		},
 		"nmZrvgUoH4UL0DP34P3FQ52I2GnvR0hN": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 194,
-			"x": 933,
+			"x": 931,
 			"y": 267
 		},
 		"pWJgo1dAofjveX8REORc03XZNX1z15dG": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1180,
+			"x": 1178,
 			"y": 225
 		},
 		"tNrV6G10GFJHTtrze9g64adrXshGLycp": {
 			"height": 130,
 			"title": "reference",
 			"width": 297,
-			"x": 800,
-			"y": 978
+			"x": 784,
+			"y": 1085
 		},
 		"uFZ61HopzwTSzk0hh7Qt4xFjJun0EpC9": {
 			"height": 94,
 			"title": "store",
 			"width": 291,
-			"x": 1733,
+			"x": 1731,
 			"y": 414
 		},
 		"vBQspd1RrrBOR092RSR1rtLpvAlCcvVm": {
 			"height": 110,
 			"title": "reference",
 			"width": 239,
-			"x": 805,
-			"y": 849
+			"x": 799,
+			"y": 959
 		},
 		"vjR0ROuoVPduIq3gVa6CDTI8BiCSEH5Q": {
 			"height": 92,
 			"title": "store",
 			"width": 349,
-			"x": 1747,
+			"x": 1745,
 			"y": -551
 		},
 		"x6vVGj8O1ZNiuODXKdxXdsGyrEZJytya": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 1391,
+			"x": 1388,
 			"y": 171
 		},
 		"xoPyBgFckxfcuslUhqy1U6gp4jSN9q9R": {
 			"height": 94,
 			"title": "update middle corr strongpoints",
 			"width": 503,
-			"x": 2492,
+			"x": 2486,
 			"y": 665
 		},
 		"zmIDNooB6kyqKKRCfy0oFVxkb4fallqz": {
 			"height": 98,
 			"title": "store",
 			"width": 425,
-			"x": 1243,
+			"x": 1241,
 			"y": -603
 		}
 	},
@@ -346,7 +353,7 @@
 					"value": "bb.battleLine"
 				}, {
 					"name": "value",
-					"value": "nota_pivokrej_sd.BattleLine(bb.corridors[2])"
+					"value": "nota_dobby.GetBattleLine(bb.corridors[2])"
 				}, {
 					"name": "scriptName",
 					"value": "store"
@@ -552,7 +559,7 @@
 							"value": "bb.battleLine"
 						}, {
 							"name": "value",
-							"value": "nota_pivokrej_sd.BattleLine(bb.corridors[2])"
+							"value": "nota_dobby.GetBattleLine(bb.corridors[2])"
 						}, {
 							"name": "scriptName",
 							"value": "store"
@@ -588,6 +595,16 @@
 				"parameters": [ {
 					"name": "behaviourName",
 					"value": "nota_dobby.purchase_units"
+				} ],
+				"referenceInputs": [],
+				"referenceOutputs": []
+			}, {
+				"children": [],
+				"id": "ew5v5sxEetVkIzXj1eVq7XEnTrCZKrWJ",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_dobby.set_radar"
 				} ],
 				"referenceInputs": [],
 				"referenceOutputs": []

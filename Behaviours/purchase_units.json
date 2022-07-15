@@ -1,5 +1,21 @@
 {
-	"additionalNodes": [],
+	"additionalNodes": [ {
+		"children": [ {
+			"children": [],
+			"id": "djxZAsBa8QybWG4zU7ixqCzoBjNa1IZw",
+			"nodeType": "failure",
+			"parameters": []
+		} ],
+		"id": "xx773KYelH3YWf6FBeDb1cSGGaIpF3gB",
+		"nodeType": "luaCondition",
+		"parameters": [ {
+			"name": "expression",
+			"value": "bb.info.goodStrongpoints > 9"
+		}, {
+			"name": "repeat",
+			"value": "false"
+		} ]
+	} ],
 	"additionalParameters": {
 		"root": {
 			"height": 108,
@@ -11,17 +27,17 @@
 	"properties": {
 		"37gfAJZU9JRWq6nZlQFDBZED57AJp9Oa": {
 			"height": 172,
-			"title": "Purchase Luger",
+			"title": "Purchase Artillery",
 			"width": 248,
-			"x": 1218,
-			"y": 89
+			"x": 1158,
+			"y": 127
 		},
 		"3JI1VjnwwlJyUGkxMUYScEZxSgdJsKow": {
 			"height": 172,
-			"title": "Purchase Farks",
+			"title": "Purchase Seers",
 			"width": 246,
-			"x": 916,
-			"y": -234
+			"x": 927,
+			"y": -369
 		},
 		"6bWIz4igoGS8eIaGfDwgLOfZGoOsLG6U": {
 			"height": 70,
@@ -30,19 +46,19 @@
 			"x": 659,
 			"y": 13
 		},
-		"BIdd8Q1LKE8kKfGF5wYepTprCYGd0WAD": {
-			"height": 90,
-			"title": "luaCondition",
-			"width": 194,
-			"x": 947,
-			"y": 51
+		"CV1vD9BWq2KfBj4W4Bjs6ES8JY4Xnmz7": {
+			"height": 172,
+			"title": "Purchase Farks",
+			"width": 246,
+			"x": 1224,
+			"y": -184
 		},
 		"FT1bzJgiEsgpQsM3OwUe4RZt0WibXJvf": {
 			"height": 172,
 			"title": "Purchase Mavericks",
 			"width": 246,
-			"x": 1209,
-			"y": -103
+			"x": 1163,
+			"y": 311
 		},
 		"YQlDCb7iyJRA9fgXbtgyuvy81xGDtbhR": {
 			"height": 60,
@@ -50,6 +66,34 @@
 			"width": 131,
 			"x": 304,
 			"y": 17
+		},
+		"djxZAsBa8QybWG4zU7ixqCzoBjNa1IZw": {
+			"height": 54,
+			"title": "failure",
+			"width": 131,
+			"x": 1166,
+			"y": 634
+		},
+		"iQYuWUvfX4vWyYdFs74RBnGvbgJxZZhV": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 227,
+			"x": 922,
+			"y": -70
+		},
+		"rTVpAAm8Ok5m69F1cG6Zo1PdDlzcJBUy": {
+			"height": 54,
+			"title": "failure",
+			"width": 131,
+			"x": 1255,
+			"y": 15
+		},
+		"xx773KYelH3YWf6FBeDb1cSGGaIpF3gB": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 227,
+			"x": 863,
+			"y": 472
 		}
 	},
 	"roles": [ {
@@ -68,16 +112,16 @@
 				} ],
 				"referenceInputs": [ {
 					"name": "unitName",
-					"value": "\"armfark\""
+					"value": "\"armseer\""
 				}, {
 					"name": "amount",
-					"value": "3"
+					"value": "1"
 				} ],
 				"referenceOutputs": []
 			}, {
 				"children": [ {
 					"children": [],
-					"id": "FT1bzJgiEsgpQsM3OwUe4RZt0WibXJvf",
+					"id": "CV1vD9BWq2KfBj4W4Bjs6ES8JY4Xnmz7",
 					"nodeType": "reference",
 					"parameters": [ {
 						"name": "behaviourName",
@@ -85,38 +129,59 @@
 					} ],
 					"referenceInputs": [ {
 						"name": "unitName",
-						"value": "\"armmav\""
+						"value": "\"armfark\""
 					}, {
 						"name": "amount",
-						"value": "20"
+						"value": "2"
 					} ],
 					"referenceOutputs": []
 				}, {
 					"children": [],
-					"id": "37gfAJZU9JRWq6nZlQFDBZED57AJp9Oa",
-					"nodeType": "reference",
-					"parameters": [ {
-						"name": "behaviourName",
-						"value": "nota_dobby.purchase_unit"
-					} ],
-					"referenceInputs": [ {
-						"name": "unitName",
-						"value": "\"armmart\""
-					}, {
-						"name": "amount",
-						"value": "20"
-					} ],
-					"referenceOutputs": []
+					"id": "rTVpAAm8Ok5m69F1cG6Zo1PdDlzcJBUy",
+					"nodeType": "failure",
+					"parameters": []
 				} ],
-				"id": "BIdd8Q1LKE8kKfGF5wYepTprCYGd0WAD",
+				"id": "iQYuWUvfX4vWyYdFs74RBnGvbgJxZZhV",
 				"nodeType": "luaCondition",
 				"parameters": [ {
 					"name": "expression",
-					"value": "math.random() < 0.2"
+					"value": "bb.info.goodStrongpoints > 9"
 				}, {
 					"name": "repeat",
 					"value": "false"
 				} ]
+			}, {
+				"children": [],
+				"id": "37gfAJZU9JRWq6nZlQFDBZED57AJp9Oa",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_dobby.purchase_unit"
+				} ],
+				"referenceInputs": [ {
+					"name": "unitName",
+					"value": "\"armmart\""
+				}, {
+					"name": "amount",
+					"value": "9"
+				} ],
+				"referenceOutputs": []
+			}, {
+				"children": [],
+				"id": "FT1bzJgiEsgpQsM3OwUe4RZt0WibXJvf",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_dobby.purchase_unit"
+				} ],
+				"referenceInputs": [ {
+					"name": "unitName",
+					"value": "\"armmav\""
+				}, {
+					"name": "amount",
+					"value": "4"
+				} ],
+				"referenceOutputs": []
 			} ],
 			"id": "6bWIz4igoGS8eIaGfDwgLOfZGoOsLG6U",
 			"nodeType": "selector",
